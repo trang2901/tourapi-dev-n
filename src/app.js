@@ -1,7 +1,7 @@
 const express=require('express');
 const route=require('./routers');
 const app=express();
-const port=3000;
+const port= process.env.PORT || 3000;
 
 //Connect to database
 const db=require('./app/config/db');
