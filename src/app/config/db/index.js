@@ -1,8 +1,9 @@
 const mongoose=require('mongoose');
+require('dotenv/config');
 
 async function connect(){
     try{
-        await mongoose.connect('mongodb+srv://LongTran:123@cluster0.nzz9f.mongodb.net/Tour_Dev?retryWrites=true&w=majority');
+        await mongoose.connect(process.env.DB_CONNECTION);
         console.log("Connect successfully!!");
     }
     catch(ex){
