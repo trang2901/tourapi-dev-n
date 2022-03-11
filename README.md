@@ -8,6 +8,14 @@ LinkApi: https://tour-api-dev.herokuapp.com/
     post: '/tour' => create
     put: '/tour/:id' => update
     delete: '/tour/:id' => delete
+
+ ##Lich Trinh
+ 
+    get: '/lichtrinh' => show
+    get: '/lichtrinh/:id' => specific detail
+    post: '/lichtrinh' => create
+    put: '/lichtrinh/:id' => update
+    delete: '/lichtrinh/:id' => delete
     
  ##Dia Diem
  
