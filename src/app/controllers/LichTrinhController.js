@@ -1,40 +1,31 @@
 
-const Tour = require('../../app/models/Tour');
-class TourController {
-
-    // [GET] /tour
+const LichTrinh = require('../models/LichTrinh');
+class LichTrinhController {
+    // [GET] /LichTrinh
     show(req, res) {
-        Tour.find({})
-            .populate({
-                path: 'lich_trinh',
-                populate: { path: 'id_dia_diem' }
-            })
-            .populate('nguoi_hd')
-            .populate('khach_hang')
+        LichTrinh.find({})
+            .populate('id_dia_diem')
             .lean()
-            .then(tours => res.json(tours))
+            .then(LichTrinhs => res.json(LichTrinhs))
             .catch(err => {
                 message: err
             });
     }
 
-    // [GET] /tour/:slug
+    // [GET] /LichTrinh/:slug
     detail(req, res) {
-        Tour.find({ slug: req.params.slug })
-            .populate('dia_diem')
-            .populate('nguoi_hd')
-            .populate('khach_hang')
+        LichTrinh.find({ _id: req.params.id })
             .lean()
-            .then(tours => res.json(tours))
+            .then(LichTrinhs => res.json(LichTrinhs))
             .catch(err => {
                 message: err
             });
     }
 
-    // [POST] /tour
+    //[POST] /LichTrinh
     create(req, res) {
-        const tour = new Tour(req.body);
-        tour.save()
+        const LichTrinh = new LichTrinh(req.body);
+        LichTrinh.save()
             .then(data => {
                 res.json(data);
             })
@@ -45,9 +36,9 @@ class TourController {
             })
     }
 
-    // [PUT] /tour/:id
+    // [PUT] /LichTrinh/:id
     update(req, res) {
-        Tour.findByIdAndUpdate(req.params.id, req.body)
+        LichTrinh.findByIdAndUpdate(req.params.id, req.body)
             .lean()
             .then(dataUpdate => res.json(dataUpdate))
             .catch(err => {
@@ -57,9 +48,9 @@ class TourController {
             })
     }
 
-    // [DELETE] /tour/:id
+    // [DELETE] /LichTrinh/:id
     delete(req, res) {
-        Tour.findByIdAndDelete(req.params.id)
+        LichTrinh.findByIdAndDelete(req.params.id)
             .lean()
             .then(dataDelete => res.json(dataDelete))
             .catch(err => {
@@ -70,4 +61,4 @@ class TourController {
     }
 }
 
-module.exports = new TourController;
+module.exports = new LichTrinhController;
