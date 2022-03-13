@@ -5,8 +5,8 @@ const adminRouter=require('./admin');
 const huongDanVienRouter=require('./huongDanVien');
 const khachHangRouter=require('./khachHang');
 const taiKhoanRouter=require('./taiKhoan');
-const thanhToanRouter=require('./thanhToan');
-const kyThanhToanRouter=require('./kyThanhToan');
+const thanhToanRouter=require('./ThanhToan');
+const kyThanhToanRouter=require('./KyThanhToan');
 
 function route(app){
     app.use('/tour',tourRouter);
