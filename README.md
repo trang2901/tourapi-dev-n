@@ -56,3 +56,19 @@ LinkApi: https://tour-api-dev.herokuapp.com/
     post: '/taikhoan' => create
     put: '/taikhoan/:id' => update
     delete: '/taikhoan/:id' => delete
+
+ ##Thanh Toan   
+ 
+    get: '/thanhtoan' => show
+    get: '/thanhtoan/:id' => specific detail
+    post: '/thanhtoan' => create
+    put: '/thanhtoan/:id' => update
+    delete: '/thanhtoan/:id' => delete
+
+ ##Ky Thanh Toan   
+ 
+    get: '/kythanhtoan' => show
+    get: '/kythanhtoan/:id' => specific detail
+    post: '/kythanhtoan' => create
+    put: '/kythanhtoan/:id' => update
+    delete: '/kythanhtoan/:id' => delete

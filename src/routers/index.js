@@ -5,6 +5,8 @@ const adminRouter=require('./admin');
 const huongDanVienRouter=require('./huongDanVien');
 const khachHangRouter=require('./khachHang');
 const taiKhoanRouter=require('./taiKhoan');
+const thanhToanRouter=require('./thanhToan');
+const kyThanhToanRouter=require('./kyThanhToan');
 
 function route(app){
     app.use('/tour',tourRouter);
@@ -14,6 +16,8 @@ function route(app){
     app.use('/huongDanVien',huongDanVienRouter);
     app.use('/khachHang',khachHangRouter);
     app.use('/taiKhoan',taiKhoanRouter);
+    app.use('/thanhtoan',thanhToanRouter);
+    app.use('/kyThanhtoan',kyThanhToanRouter);
 }
 
 module.exports=route;

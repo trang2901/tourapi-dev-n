@@ -1,32 +1,38 @@
 
-const LichTrinh = require('../models/LichTrinh');
-class LichTrinhController {
-    // [GET] /LichTrinh
+const ThanhToan = require('../models/ThanhToan');
+class ThanhToanController {
+    // [GET] /ThanhToan
     show(req, res) {
-        LichTrinh.find({})
-            .populate('id_dia_diem')
+        ThanhToan.find({})
+            .populate('id_khach_hang')
+            .populate('id_tour')
+            .populate('ky_thanh_toan')
+            .populate('nguoi_duyet')
             .lean()
-            .then(LichTrinhs => res.json(LichTrinhs))
+            .then(ThanhToans => res.json(ThanhToans))
             .catch(err => {
                 message: err
             });
     }
 
-    // [GET] /LichTrinh/:slug
+    // [GET] /ThanhToan/:id
     detail(req, res) {
-        LichTrinh.find({ _id: req.params.id })
-            .populate('id_dia_diem')
+        ThanhToan.find({ _id: req.params.id })
+            .populate('id_khach_hang')
+            .populate('id_tour')
+            .populate('ky_thanh_toan')
+            .populate('nguoi_duyet')
             .lean()
-            .then(LichTrinhs => res.json(LichTrinhs))
+            .then(ThanhToans => res.json(ThanhToans))
             .catch(err => {
                 message: err
             });
     }
 
-    //[POST] /LichTrinh
+    //[POST] /ThanhToan
     create(req, res) {
-        const LichTrinh = new LichTrinh(req.body);
-        LichTrinh.save()
+        const ThanhToan = new ThanhToan(req.body);
+        ThanhToan.save()
             .then(data => {
                 res.json(data);
             })
@@ -37,9 +43,9 @@ class LichTrinhController {
             })
     }
 
-    // [PUT] /LichTrinh/:id
+    // [PUT] /ThanhToan/:id
     update(req, res) {
-        LichTrinh.findByIdAndUpdate(req.params.id, req.body)
+        ThanhToan.findByIdAndUpdate(req.params.id, req.body)
             .lean()
             .then(dataUpdate => res.json(dataUpdate))
             .catch(err => {
@@ -49,9 +55,9 @@ class LichTrinhController {
             })
     }
 
-    // [DELETE] /LichTrinh/:id
+    // [DELETE] /ThanhToan/:id
     delete(req, res) {
-        LichTrinh.findByIdAndDelete(req.params.id)
+        ThanhToan.findByIdAndDelete(req.params.id)
             .lean()
             .then(dataDelete => res.json(dataDelete))
             .catch(err => {
@@ -62,4 +68,4 @@ class LichTrinhController {
     }
 }
 
-module.exports = new LichTrinhController;
+module.exports = new ThanhToanController;
