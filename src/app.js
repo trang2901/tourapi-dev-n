@@ -16,6 +16,4 @@ app.use(express.urlencoded({ extended: true }));//middleware
 //Init Router
 route(app);
 
-
-
 app.listen(port);
