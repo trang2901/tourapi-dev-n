@@ -4,7 +4,7 @@ LinkApi: https://tour-api-dev.herokuapp.com/
  ##Tour
  
     get: '/tour' => show
-    get: '/:page?limitPage' =>Pagination
+    get: '/tour/:page?limitPage' =>Pagination
     get: '/tour/:slug' => specific detail
     post: '/tour' => create
     put: '/tour/:id' => update
