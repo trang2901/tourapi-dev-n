@@ -19,7 +19,7 @@ class TourController {
     }
     // [GET] /tour/page
     showPage(req, res) {
-        let page = req.params.page || 1;
+        let page = req.params.page ;
         let limitPage = req.query.limitPage || 4;
         Promise.all([
             Tour.find({})
