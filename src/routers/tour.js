@@ -4,6 +4,7 @@ const router=express.Router();
 const TourController=require('../app/controllers/TourController');
 
 router.get('/',TourController.show);
+router.get('/:page',TourController.showPage);
 router.get('/:slug',TourController.detail);
 router.post('/',TourController.create);
 router.put('/:id',TourController.update);

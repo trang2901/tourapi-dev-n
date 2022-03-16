@@ -17,10 +17,33 @@ class TourController {
                 message: err
             });
     }
+    // [GET] /tour/page
+    showPage(req, res) {
+        let page = req.params.page || 1;
+        let limitPage = req.query.limitPage || 4;
+        Promise.all([
+            Tour.find({})
+                .populate({
+                    path: 'lich_trinh',
+                    populate: { path: 'id_dia_diem' }
+                })
+                .populate('nguoi_hd')
+                .populate('khach_hang')
+                .lean()
+                .skip((limitPage * page) - limitPage)
+                .limit(limitPage),
+            Tour.countDocuments()
+        ])
+            .then(([tours,totalDocument])=>res.json({
+                tours,
+                currentPage: page,
+                totalPage: Math.ceil(totalDocument / limitPage)
+            }))
+    }
 
     // [GET] /tour/:slug
-     detail(req, res) {
-        Tour.find({slug: req.params.slug})
+    detail(req, res) {
+        Tour.find({ slug: req.params.slug })
             .populate({
                 path: 'lich_trinh',
                 populate: { path: 'id_dia_diem' }
