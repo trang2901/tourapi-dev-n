@@ -5,6 +5,7 @@ const TourController=require('../app/controllers/TourController');
 
 router.get('/',TourController.show);
 router.get('/page/:page',TourController.showPage);
+router.get('/allTags',TourController.showAllTags);
 router.get('/:slug',TourController.detail);
 router.post('/',TourController.create);
 router.put('/:id',TourController.update);

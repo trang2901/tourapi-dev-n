@@ -4,7 +4,12 @@ class TourController {
 
     // [GET] /tour
     show(req, res) {
-        Tour.find({})
+        let query={};
+        if(req.query.hasOwnProperty('tag'))
+            query={
+                tags:req.query.tag
+            }
+        Tour.find(query)
             .populate({
                 path: 'lich_trinh',
                 populate: { path: 'id_dia_diem' }
@@ -13,6 +18,23 @@ class TourController {
             .populate('khach_hang')
             .lean()
             .then(tours => res.json(tours))
+            .catch(err => {
+                message: err
+            });
+    }
+    // [GET] /tour/allTags
+    showAllTags(req, res) {
+        Tour.find({},{tags:1, _id:0})
+            .lean()
+            .then(data=>{
+                let tags=[];
+                data.forEach(item=>{
+                    tags=tags.concat(item.tags);
+                })
+                let tagsDistinct=new Set(tags);
+                tagsDistinct=Array.from(tagsDistinct);
+                res.json(tagsDistinct);
+            })
             .catch(err => {
                 message: err
             });
