@@ -13,7 +13,7 @@ class TaiKhoanController {
 
     // [GET] /taikhoan/:username
     detail(req, res) {
-        TaiKhoan.find({ username: req.params.username })
+        TaiKhoan.findOne({ username: req.params.username })
             .lean()
             .then(acount => res.json(acount))
             .catch(err => {

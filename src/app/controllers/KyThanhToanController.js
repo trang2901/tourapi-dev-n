@@ -13,7 +13,7 @@ class KyThanhToanController {
     
     // [GET] /KyThanhToan/:id
     detail(req, res) {
-        KyThanhToan.find({ _id: req.params.id })
+        KyThanhToan.findOne({ _id: req.params.id })
             .lean()
             .then(KyThanhToans => res.json(KyThanhToans))
             .catch(err => {

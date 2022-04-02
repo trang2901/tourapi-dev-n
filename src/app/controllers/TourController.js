@@ -65,7 +65,7 @@ class TourController {
 
     // [GET] /tour/:slug
     detail(req, res) {
-        Tour.find({ slug: req.params.slug })
+        Tour.findOne({ slug: req.params.slug })
             .populate({
                 path: 'lich_trinh',
                 populate: { path: 'id_dia_diem' }

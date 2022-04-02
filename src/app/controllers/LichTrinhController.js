@@ -14,7 +14,7 @@ class LichTrinhController {
 
     // [GET] /LichTrinh/:slug
     detail(req, res) {
-        LichTrinh.find({ _id: req.params.id })
+        LichTrinh.findOne({ _id: req.params.id })
             .populate('id_dia_diem')
             .lean()
             .then(LichTrinhs => res.json(LichTrinhs))

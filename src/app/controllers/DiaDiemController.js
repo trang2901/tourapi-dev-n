@@ -13,7 +13,7 @@ class DiaDiemController {
     
     // [GET] /diadiem/:slug
     detail(req, res) {
-        DiaDiem.find({ slug: req.params.slug })
+        DiaDiem.findOne({ slug: req.params.slug })
             .lean()
             .then(diaDiems => res.json(diaDiems))
             .catch(err => {

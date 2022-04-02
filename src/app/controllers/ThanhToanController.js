@@ -17,7 +17,7 @@ class ThanhToanController {
 
     // [GET] /ThanhToan/:id
     detail(req, res) {
-        ThanhToan.find({ _id: req.params.id })
+        ThanhToan.findOne({ _id: req.params.id })
             .populate('id_khach_hang')
             .populate('id_tour')
             .populate('ky_thanh_toan')
