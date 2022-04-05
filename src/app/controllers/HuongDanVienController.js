@@ -1,5 +1,6 @@
 
 const HuongDanVien = require('../models/HuongDanVien');
+const Tour = require('../../app/models/Tour');
 class HuongDanVienController {
 
     // [GET] /huongdanvien
@@ -7,7 +8,17 @@ class HuongDanVienController {
         HuongDanVien.find({})
             .populate('id_tai_khoan')
             .lean()
-            .then(hdv => res.json(hdv))
+            .then(huongdanviens => {
+                var promise = huongdanviens.map(huongdanvien => {
+                    return Tour.find({ nguoi_hd: huongdanvien['_id'] })
+                        .then(tour_hd => {
+                            huongdanvien.tour_hd = tour_hd;
+                            return huongdanvien;
+                        })
+                })
+                Promise.all(promise)
+                    .then(huongdanviens => res.json(huongdanviens))
+            })
             .catch(err => {
                 message: err
             });
@@ -18,7 +29,13 @@ class HuongDanVienController {
         HuongDanVien.findById(req.params.id)
             .populate('id_tai_khoan')
             .lean()
-            .then(hdv => res.json(hdv))
+            .then(huongdanvien => {
+                Tour.find({ nguoi_hd: huongdanvien['_id'] })
+                    .then(tour_hd => {
+                        huongdanvien.tour_hd = tour_hd;
+                        res.json(huongdanvien);
+                    })
+            })
             .catch(err => {
                 message: err
             });
@@ -39,10 +56,10 @@ class HuongDanVienController {
     }
 
     // [PUT] /huongdanvien/:id
-    update(req,res){
-        HuongDanVien.findByIdAndUpdate(req.params.id,req.body)
+    update(req, res) {
+        HuongDanVien.findByIdAndUpdate(req.params.id, req.body)
             .lean()
-            .then(dataUpdate=>res.json(dataUpdate))
+            .then(dataUpdate => res.json(dataUpdate))
             .catch(err => {
                 res.json({
                     message: err
@@ -51,10 +68,10 @@ class HuongDanVienController {
     }
 
     // [DELETE] /huongdanvien/:id
-    delete(req,res){
+    delete(req, res) {
         HuongDanVien.findByIdAndDelete(req.params.id)
             .lean()
-            .then(dataDelete=>res.json(dataDelete))
+            .then(dataDelete => res.json(dataDelete))
             .catch(err => {
                 res.json({
                     message: err
