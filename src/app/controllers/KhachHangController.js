@@ -11,7 +11,7 @@ class KhachHangController {
             .lean()
             .then(khachhangs => {
                 var promise = khachhangs.map(khachhang => {
-                    return Tour.find({ khachhang: { $elemMatch: { _id: khachhang['_id'], ho_ten: khachhang.ho_ten } } })
+                    return Tour.find({ khach_hang:khachhang['_id'] })
                         .then(tour_tg => {
                             khachhang.tour_tg = tour_tg;
                             return khachhang;
@@ -31,8 +31,9 @@ class KhachHangController {
             .populate('id_tai_khoan')
             .lean()
             .then(khachhang => {
-                Tour.find({ khachhang: { $elemMatch: { _id: khachhang['_id'], ho_ten: khachhang.ho_ten } } })
+                Tour.find({ khach_hang: khachhang['_id'] })
                     .then(tour_tg => {
+                        console.log(tour_tg);
                         khachhang.tour_tg = tour_tg;
                         res.json(khachhang);
                     })
