@@ -1,5 +1,7 @@
 
 const KhachHang = require('../models/KhachHang');
+const Tour = require('../../app/models/Tour');
+
 class KhachHangController {
 
     // [GET] /khachhang
@@ -7,7 +9,17 @@ class KhachHangController {
         KhachHang.find({})
             .populate('id_tai_khoan')
             .lean()
-            .then(kh => res.json(kh))
+            .then(khachhangs => {
+                var promise = khachhangs.map(khachhang => {
+                    return Tour.find({ khachhang: { $elemMatch: { _id: khachhang['_id'], ho_ten: khachhang.ho_ten } } })
+                        .then(tour_tg => {
+                            khachhang.tour_tg = tour_tg;
+                            return khachhang;
+                        })
+                })
+                Promise.all(promise)
+                    .then(khachhangs => res.json(khachhangs))
+            })
             .catch(err => {
                 message: err
             });
@@ -18,7 +30,13 @@ class KhachHangController {
         KhachHang.findById(req.params.id)
             .populate('id_tai_khoan')
             .lean()
-            .then(kh => res.json(kh))
+            .then(khachhang => {
+                Tour.find({ khachhang: { $elemMatch: { _id: khachhang['_id'], ho_ten: khachhang.ho_ten } } })
+                    .then(tour_tg => {
+                        khachhang.tour_tg = tour_tg;
+                        res.json(khachhang);
+                    })
+            })
             .catch(err => {
                 message: err
             });
@@ -39,10 +57,10 @@ class KhachHangController {
     }
 
     // [PUT] /khachhang/:id
-    update(req,res){
-        KhachHang.findByIdAndUpdate(req.params.id,req.body)
+    update(req, res) {
+        KhachHang.findByIdAndUpdate(req.params.id, req.body)
             .lean()
-            .then(dataUpdate=>res.json(dataUpdate))
+            .then(dataUpdate => res.json(dataUpdate))
             .catch(err => {
                 res.json({
                     message: err
@@ -51,10 +69,10 @@ class KhachHangController {
     }
 
     // [DELETE] /khachhang/:id
-    delete(req,res){
+    delete(req, res) {
         KhachHang.findByIdAndDelete(req.params.id)
             .lean()
-            .then(dataDelete=>res.json(dataDelete))
+            .then(dataDelete => res.json(dataDelete))
             .catch(err => {
                 res.json({
                     message: err
