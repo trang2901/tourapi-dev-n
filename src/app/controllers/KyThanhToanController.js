@@ -23,8 +23,8 @@ class KyThanhToanController {
 
     //[POST] /KyThanhToan
     create(req, res) {
-        const KyThanhToan = new KyThanhToan(req.body);
-        KyThanhToan.save()
+        const kyThanhToan = new KyThanhToan(req.body);
+        kyThanhToan.save()
             .then(data => {
                 res.json(data);
             })

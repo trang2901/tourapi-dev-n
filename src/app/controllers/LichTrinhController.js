@@ -25,8 +25,8 @@ class LichTrinhController {
 
     //[POST] /LichTrinh
     create(req, res) {
-        const LichTrinh = new LichTrinh(req.body);
-        LichTrinh.save()
+        const lichTrinh = new LichTrinh(req.body);
+        lichTrinh.save()
             .then(data => {
                 res.json(data);
             })

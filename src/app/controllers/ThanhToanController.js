@@ -31,8 +31,8 @@ class ThanhToanController {
 
     //[POST] /ThanhToan
     create(req, res) {
-        const ThanhToan = new ThanhToan(req.body);
-        ThanhToan.save()
+        const thanhToan = new ThanhToan(req.body);
+        thanhToan.save()
             .then(data => {
                 res.json(data);
             })
