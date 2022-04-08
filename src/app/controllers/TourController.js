@@ -17,7 +17,16 @@ class TourController {
             .populate('nguoi_hd')
             .populate('khach_hang')
             .lean()
-            .then(tours => res.json(tours))
+            .then(tours => {{
+                tours.map(tour=>{
+                    let hinh=[];
+                    tour.lich_trinh.forEach(lichtrinh=>{
+                        hinh.push(lichtrinh.id_dia_diem.hinh);
+                    })
+                    tour.hinh=hinh;
+                })
+                res.json(tours);
+            }})
             .catch(err => {
                 message: err
             });
