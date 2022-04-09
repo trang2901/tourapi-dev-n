@@ -4,10 +4,10 @@ class TourController {
 
     // [GET] /tour
     show(req, res) {
-        let query={};
-        if(req.query.hasOwnProperty('tag'))
-            query={
-                tags:req.query.tag
+        let query = {};
+        if (req.query.hasOwnProperty('tag'))
+            query = {
+                tags: req.query.tag
             }
         Tour.find(query)
             .populate({
@@ -17,31 +17,33 @@ class TourController {
             .populate('nguoi_hd')
             .populate('khach_hang')
             .lean()
-            .then(tours => {{
-                tours.map(tour=>{
-                    let hinh=[];
-                    tour.lich_trinh.forEach(lichtrinh=>{
-                        hinh.push(lichtrinh.id_dia_diem.hinh);
+            .then(tours => {
+                {
+                    tours.map(tour => {
+                        let hinh = [];
+                        tour.lich_trinh.forEach(lichtrinh => {
+                            hinh.push(lichtrinh.id_dia_diem.hinh);
+                        })
+                        tour.hinh = hinh;
                     })
-                    tour.hinh=hinh;
-                })
-                res.json(tours);
-            }})
+                    res.json(tours);
+                }
+            })
             .catch(err => {
                 message: err
             });
     }
     // [GET] /tour/allTags
     showAllTags(req, res) {
-        Tour.find({},{tags:1, _id:0})
+        Tour.find({}, { tags: 1, _id: 0 })
             .lean()
-            .then(data=>{
-                let tags=[];
-                data.forEach(item=>{
-                    tags=tags.concat(item.tags);
+            .then(data => {
+                let tags = [];
+                data.forEach(item => {
+                    tags = tags.concat(item.tags);
                 })
-                let tagsDistinct=new Set(tags);
-                tagsDistinct=Array.from(tagsDistinct);
+                let tagsDistinct = new Set(tags);
+                tagsDistinct = Array.from(tagsDistinct);
                 res.json(tagsDistinct);
             })
             .catch(err => {
@@ -50,7 +52,7 @@ class TourController {
     }
     // [GET] /tour/page
     showPage(req, res) {
-        let page = req.params.page ;
+        let page = req.params.page;
         let limitPage = req.query.limitPage || 4;
         Promise.all([
             Tour.find({})
@@ -65,7 +67,7 @@ class TourController {
                 .limit(limitPage),
             Tour.countDocuments()
         ])
-            .then(([tours,totalDocument])=>res.json({
+            .then(([tours, totalDocument]) => res.json({
                 tours,
                 currentPage: page,
                 totalPage: Math.ceil(totalDocument / limitPage)
@@ -105,6 +107,19 @@ class TourController {
     // [PUT] /tour/:id
     update(req, res) {
         Tour.findByIdAndUpdate(req.params.id, req.body)
+            .lean()
+            .then(dataUpdate => res.json(dataUpdate))
+            .catch(err => {
+                res.json({
+                    message: err
+                });
+            })
+    }
+    // [PATCH] /tour/:id
+    updatePatch(req, res) {
+        var updateObject = req.body;
+        var id = req.params.id;
+        Tour.findByIdAndUpdate(id,{ $set: updateObject })
             .lean()
             .then(dataUpdate => res.json(dataUpdate))
             .catch(err => {
