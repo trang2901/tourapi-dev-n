@@ -7,6 +7,7 @@ const DiaDiem=new Schema({
     hinh:Array,
     mo_ta:String,
     tinh_thanh:String,
+    tag:String,
     slug: { type: String, slug: 'ten', unique: true, },
 },{
     timestamps:true

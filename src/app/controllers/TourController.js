@@ -21,10 +21,13 @@ class TourController {
                 {
                     tours.map(tour => {
                         let hinh = [];
+                        let tags=[];
                         tour.lich_trinh.forEach(lichtrinh => {
                             hinh.push(lichtrinh.id_dia_diem.hinh);
+                            tags.push(lichtrinh.id_dia_diem.tag);
                         })
                         tour.hinh = hinh;
+                        tour.tags = tags;
                     })
                     res.json(tours);
                 }
