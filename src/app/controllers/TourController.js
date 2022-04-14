@@ -21,7 +21,7 @@ class TourController {
                 {
                     tours.map(tour => {
                         let hinh = [];
-                        let tags=[];
+                        let tags = [];
                         tour.lich_trinh.forEach(lichtrinh => {
                             hinh.push(lichtrinh.id_dia_diem.hinh);
                             tags.push(lichtrinh.id_dia_diem.tag);
@@ -87,7 +87,17 @@ class TourController {
             .populate('nguoi_hd')
             .populate('khach_hang')
             .lean()
-            .then(tours => res.json(tours))
+            .then(tour => {
+                    let hinh = [];
+                    let tags = [];
+                    tour.lich_trinh.forEach(lichtrinh => {
+                        hinh.push(lichtrinh.id_dia_diem.hinh);
+                        tags.push(lichtrinh.id_dia_diem.tag);
+                    })
+                    tour.hinh = hinh;
+                    tour.tags = tags;
+                res.json(tour);
+            })
             .catch(err => {
                 message: err
             });
@@ -122,7 +132,7 @@ class TourController {
     updatePatch(req, res) {
         var updateObject = req.body;
         var id = req.params.id;
-        Tour.findByIdAndUpdate(id,{ $set: updateObject })
+        Tour.findByIdAndUpdate(id, { $set: updateObject })
             .lean()
             .then(dataUpdate => res.json(dataUpdate))
             .catch(err => {
