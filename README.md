@@ -43,6 +43,14 @@ LinkApi: https://tour-api-dev.herokuapp.com/
     post: '/khachhang' => create
     put: '/khachhang/:id' => update
     delete: '/khachhang/:id' => delete
+
+ ##Du Khach
+ 
+    get: '/dukhach' => show
+    get: '/dukhach/:id' => specific detail
+    post: '/dukhach' => create
+    put: '/dukhach/:id' => update
+    delete: '/dukhach/:id' => delete
     
  ##Admin   
  

@@ -1,30 +1,30 @@
 
-const TaiKhoan = require('../models/TaiKhoan');
-class TaiKhoanController {
-    // [GET] /taikhoan
+const DuKhach = require('../models/DuKhach');
+class DuKhachController {
+    // [GET] /DuKhach
     show(req, res) {
-        TaiKhoan.find({})
+        DuKhach.find({})
             .lean()
-            .then(acount => res.json(acount))
+            .then(duKhach => res.json(duKhach))
             .catch(err => {
                 message: err
             });
     }
 
-    // [GET] /taikhoan/:username
+    // [GET] /DuKhach/:id
     detail(req, res) {
-        TaiKhoan.findOne({ username: req.params.username })
+        DuKhach.findById(req.params.id)
             .lean()
-            .then(acount => res.json(acount))
+            .then(duKhach => res.json(duKhach))
             .catch(err => {
                 message: err
             });
     }
 
-    // [POST] /taikhoan
+    // [POST] /DuKhach
     create(req, res) {
-        const tk = new TaiKhoan(req.body);
-        tk.save()
+        const duKhach = new DuKhach(req.body);
+        duKhach.save()
             .then(data => {
                 res.json(data);
             })
@@ -35,9 +35,9 @@ class TaiKhoanController {
             })
     }
 
-    // [PUT] /taikhoan/:id
+    // [PUT] /DuKhach/:id
     update(req,res){
-        TaiKhoan.findByIdAndUpdate(req.params.id,req.body)
+        DuKhach.findByIdAndUpdate(req.params.id,req.body)
             .lean()
             .then(tk=>res.json(tk))
             .catch(err => {
@@ -47,9 +47,9 @@ class TaiKhoanController {
             })
     }
 
-    // [DELETE] /taikhoan/:id
+    // [DELETE] /DuKhach/:id
     delete(req,res){
-        TaiKhoan.findByIdAndDelete(req.params.id)
+        DuKhach.findByIdAndDelete(req.params.id)
             .lean()
             .then(dataDelete=>res.json(dataDelete))
             .catch(err => {
@@ -60,4 +60,4 @@ class TaiKhoanController {
     }
 }
 
-module.exports = new TaiKhoanController;
+module.exports = new DuKhachController;
