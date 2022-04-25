@@ -5,7 +5,7 @@ class DuKhachController {
     show(req, res) {
         DuKhach.find({})
             .lean()
-            .then(duKhach => res.json(duKhach))
+            .then(duKhachs => res.json(duKhachs))
             .catch(err => {
                 message: err
             });
