@@ -48,7 +48,7 @@ LinkApi: https://tour-api-dev.herokuapp.com/
  
     get: '/dukhach' => show
     get: '/dukhach/:id' => specific detail
-    post: '/dukhach' => create
+    post: '/dukhach'(req.body=[{dukhach},{},...]) => create array dukhach and return array id of dukhach
     put: '/dukhach/:id' => update
     delete: '/dukhach/:id' => delete
     

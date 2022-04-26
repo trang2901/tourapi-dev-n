@@ -23,11 +23,14 @@ class DuKhachController {
 
     // [POST] /DuKhach
     create(req, res) {
-        const duKhach = new DuKhach(req.body);
-        duKhach.save()
-            .then(data => {
-                res.json(data);
-            })
+        const duKhachs=req.body;
+        var promisesDuKhach = duKhachs.map(duKhach => {
+            let dk = new DuKhach(duKhach);
+            return dk.save()
+                .then(dk => dk['_id'])
+        })
+        Promise.all(promisesDuKhach)
+            .then(idsDuKhach => res.json(idsDuKhach))
             .catch(err => {
                 res.json({
                     message: err
@@ -36,10 +39,10 @@ class DuKhachController {
     }
 
     // [PUT] /DuKhach/:id
-    update(req,res){
-        DuKhach.findByIdAndUpdate(req.params.id,req.body)
+    update(req, res) {
+        DuKhach.findByIdAndUpdate(req.params.id, req.body)
             .lean()
-            .then(tk=>res.json(tk))
+            .then(tk => res.json(tk))
             .catch(err => {
                 res.json({
                     message: err
@@ -48,10 +51,10 @@ class DuKhachController {
     }
 
     // [DELETE] /DuKhach/:id
-    delete(req,res){
+    delete(req, res) {
         DuKhach.findByIdAndDelete(req.params.id)
             .lean()
-            .then(dataDelete=>res.json(dataDelete))
+            .then(dataDelete => res.json(dataDelete))
             .catch(err => {
                 res.json({
                     message: err
