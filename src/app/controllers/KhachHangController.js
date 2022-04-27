@@ -1,6 +1,6 @@
 
 const KhachHang = require('../models/KhachHang');
-const Tour = require('../../app/models/Tour');
+const ThanhToan = require('../models/ThanhToan');
 
 class KhachHangController {
 
@@ -11,9 +11,11 @@ class KhachHangController {
             .lean()
             .then(khachhangs => {
                 var promise = khachhangs.map(khachhang => {
-                    return Tour.find({ khach_hang:khachhang['_id'] })
-                        .then(tour_tg => {
-                            khachhang.tour_tg = tour_tg;
+                    return ThanhToan.find({ id_khach_hang:khachhang['_id'] })
+                        .populate('id_tour')
+                        .then(thanhtoans => {
+                            let tours_da_dat=thanhtoans.map(thanhtoan=>thanhtoan.id_tour);
+                            khachhang.tours_da_dat = tours_da_dat;
                             return khachhang;
                         })
                 })
@@ -31,10 +33,11 @@ class KhachHangController {
             .populate('id_tai_khoan')
             .lean()
             .then(khachhang => {
-                Tour.find({ khach_hang: khachhang['_id'] })
-                    .then(tour_tg => {
-                        console.log(tour_tg);
-                        khachhang.tour_tg = tour_tg;
+                ThanhToan.find({ id_khach_hang:khachhang['_id'] })
+                    .populate('id_tour')
+                    .then(thanhtoans => {
+                        let tours_da_dat=thanhtoans.map(thanhtoan=>thanhtoan.id_tour);
+                        khachhang.tours_da_dat = tours_da_dat;
                         res.json(khachhang);
                     })
             })
