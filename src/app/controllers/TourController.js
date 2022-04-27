@@ -15,7 +15,7 @@ class TourController {
                 populate: { path: 'id_dia_diem' }
             })
             .populate('nguoi_hd')
-            .populate('khach_hang')
+            .populate('du_khach')
             .lean()
             .then(tours => {
                 {

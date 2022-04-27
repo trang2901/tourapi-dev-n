@@ -9,10 +9,9 @@ const Tour=new Schema({
     nguoi_hd:{ type: Schema.Types.ObjectId, ref: 'huong_dan_vien' },
     so_cho:String,
     so_ngay:String,
-    khach_hang:[{ type: Schema.Types.ObjectId, ref: 'khach_hang' }],
+    du_khach:[{ type: Schema.Types.ObjectId, ref: 'du_khach' }],
     lich_trinh:[{ type: Schema.Types.ObjectId, ref: 'lich_trinh' }],
     slug: { type: String, slug: 'ten', unique: true, },
-    tags:[String],
     hinh:[String]
 },{
     timestamps:true
