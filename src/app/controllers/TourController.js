@@ -22,12 +22,15 @@ class TourController {
                     tours.map(tour => {
                         let hinh = [];
                         let tags = [];
+                        let so_ngay = '0';
                         tour.lich_trinh.forEach(lichtrinh => {
                             hinh.push(lichtrinh.id_dia_diem.hinh);
                             tags.push(lichtrinh.id_dia_diem.tag);
+                            so_ngay = parseInt(so_ngay) + parseInt(lichtrinh.ngay_o);
                         })
                         tour.hinh = hinh;
                         tour.tags = tags;
+                        tour.so_ngay = so_ngay;
                     })
                     res.json(tours);
                 }
@@ -88,14 +91,17 @@ class TourController {
             .populate('du_khach')
             .lean()
             .then(tour => {
-                    let hinh = [];
-                    let tags = [];
-                    tour.lich_trinh.forEach(lichtrinh => {
-                        hinh.push(lichtrinh.id_dia_diem.hinh);
-                        tags.push(lichtrinh.id_dia_diem.tag);
-                    })
-                    tour.hinh = hinh;
-                    tour.tags = tags;
+                let hinh = [];
+                let tags = [];
+                let so_ngay = '0';
+                tour.lich_trinh.forEach(lichtrinh => {
+                    hinh.push(lichtrinh.id_dia_diem.hinh);
+                    tags.push(lichtrinh.id_dia_diem.tag);
+                    so_ngay = parseInt(so_ngay) + parseInt(lichtrinh.ngay_o);
+                })
+                tour.hinh = hinh;
+                tour.tags = tags;
+                tour.so_ngay = so_ngay;
                 res.json(tour);
             })
             .catch(err => {
