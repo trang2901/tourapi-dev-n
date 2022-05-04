@@ -4,7 +4,7 @@ const slug = require('mongoose-slug-generator');
 const Schema=mongoose.Schema;
 const DiaDiem=new Schema({
     ten: String,
-    hinh:Array,
+    hinh:String,
     mo_ta:String,
     tinh_thanh:String,
     tag:String,
