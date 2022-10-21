@@ -9,6 +9,7 @@ const port= process.env.PORT || 3000;
 
 //Connect to database
 const db=require('./app/config/db');
+const { Server } = require('http');
 db.connect();
 
 //static files
@@ -21,3 +22,4 @@ app.use(express.urlencoded({ extended: true }));//middleware
 route(app);
 
 app.listen(port);
+

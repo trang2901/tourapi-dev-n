@@ -1,0 +1,3516 @@
+{
+    "admins" : [
+      {
+        "_id": {
+          "$oid": "6222c81da3ae8da2e91c8822"
+        },
+        "ho_ten": "Trần Phi Long ",
+        "gioi_tinh": "Nam",
+        "sdt": "01231231213",
+        "email": "longb1805886@student.ctu.edu.vn",
+        "dia_chi": "Cái Răng, Cần Thơ, VN",
+        "id_tai_khoan": {
+          "$oid": "6220c391a37e0b167e7dc8ff"
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1649649639230"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "6224c1263eb8285a8014418d"
+        },
+        "ho_ten": "AD",
+        "gioi_tinh": "Nam",
+        "sdt": "01231231212",
+        "email": "longb1805886@student.ctu.edu.vn",
+        "dia_chi": "Cái Răng, Cần Thơ",
+        "id_tai_khoan": {
+          "$oid": "6222c1aba3ae8da2e91c87fa"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1646575910152"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1646575910152"
+          }
+        },
+        "__v": 0
+      }
+    ],
+    "dia_diems" : [
+      {
+        "_id": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "ten": "Hokkaido",
+        "hinh": "/img/Hokkaido.jpg",
+        "mo_ta": "Hokkaido là hòn đảo chính nằm ở cực bắc Nhật Bản, cách đảo Honshu bởi eo biển Tsugaru, được nối liền với đảo Honshu bằng đường hầm Seikan. Trong đó Sapporo là thành phố lớn nhất đồng thời cũng là trung tâm hành chính của Hokkaido. Thành phố Sapporo là cửa ngõ vào Hokkaido khi đi từ Tokyo và Osaka, nổi bật với đường phố được sắp xếp gọn gàng như hình bàn cờ.\r\n\r\nHokkaido được thiên nhiên ưu ái vô cùng với vẻ đẹp diệu kỳ của cảnh sắc núi non, cao nguyên rộng lớn, sông hồ, biển cả và bầu trời trong vắt. Chính vì vậy nơi đây luôn là điểm đến làm mê đắm biết bao du khách với cảnh sắc xinh đẹp trong suốt 4 mùa, cùng những món ăn tươi ngon đặc sắc.\r\n\r\nĐi Hokkaido khi nào ?\r\n\r\nMỗi mùa ở Hokkaido đều mang một vẻ đẹp khác nhau, mùa xuân có hoa đào nở thắm, mùa hạ với muôn hương hoa khoe sắc, trời đông tuyết trắng xóa và khung cảnh lãng mạn man mác gió khi thu sang…\r\n\r\nMùa hè ở Hokkaido rơi vào khoảng tháng 7, tháng 8 với nhiệt độ trung bình từ 17 oC đến 22 oC. Trong khi đó vào mùa đông tháng 12 kéo dài đến tháng 4 nhiệt độ trung bình từ khoảng -12 oC đến -4 oC.\r\n \r\n\r\nHokkaido có mùa đông dài nhất nên vùng đất này trở thành nơi thi đấu thể thao mùa đông tốt nhất ở Nhật Bản. Mùa thu về trên đảo Hokkaido rất sớm, từ giữa tháng 9 đầu tháng 10, lúc này tiết trời mát mẻ và hòn đảo như được thay một màu áo mới đỏ rực rỡ.\r\n\r\nNhững điểm du lịch nổi tiếng của Hokkaido\r\n\r\nTrong đôi mắt của người Nhật thì Hokkaido là một nơi nhìn thấy đường chân trời rõ nét nhất, một cách tự nhiên và đẹp đẽ nhất mà lạnh buốt, cũng là một trong những nơi tìm được cảm giác trở về, và cảm giác thân thiết nhất với cuộc sống và cội nguồn. Một mặt nước bình lặng, bãi cát nông màu xanh khi nước triều lên, từng bụi hoa nhỏ xinh xắn nở rộ, đủ mọi màu sắc, màu hồng tươi tắn, màu tím cao sang, màu vàng thắm thiết mà còn có màu xanh thanh tao, không có sự sắp xếp nhân tạo, không có bàn tay con người đụng vào song sự liên kết thành một màu sắc hài hòa đẹp mắt, khiến người ta không khỏi suy nghĩ miên man.\r\n\r\nMặt nước yên tĩnh, bãi cát nông màu xanh khi nước triều dâng, Hokkaido là nơi hiền lành chất phác nhất và cũng là nơi say đắm lòng người. Hình dáng Hokkaido giống như một con cua to lớn thu hết chận lại nằm co ro ở phương bắc xa xôi vì giá lạnh. Hokkaido là một trong bốn hòn đảo lớn ở Nhật Bản, ngày nay nó là biểu tượng cho sự thu nhỏ của thiên nhiên, đất đai rộng rãi và là vùng đồng bằng rộng lớn mênh mông, đồng cỏ tươi tốt, không khí trong lành và nguồn nước thì sạch đến lạ kỳ.",
+        "tinh_thanh": "Hokkaido",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1646488601982"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1649775761494"
+          }
+        },
+        "slug": "hokkaido",
+        "__v": 0,
+        "tag": "Snow"
+      },{
+        "_id": {
+          "$oid": "624860580489641a803bcbe9"
+        },
+        "ten": "Núi Phú Sĩ",
+        "hinh": "/img/NuiPhuSi.png",
+        "mo_ta": "Sừng sững ở độ cao 3.776 mét, Núi Phú Sĩ  là đỉnh núi cao nhất ở Nhật Bản, kết quả của hoạt động núi lửa đã bắt đầu từ khoảng 100.000 năm trước. Ngày nay, Núi Phú Sĩ và khu vực xung quanh là một điểm đến giải trí phổ biến cho hoạt động đi bộ đường dài, cắm trại và thư giãn.\nLà một trong những biểu tượng nổi tiếng nhất nước Nhật, khách du lịch từ khắp nơi trên thế giới đổ về tỉnh Shizuoka  và Yamanashi  để ngắm nhìn ngọn núi hùng vĩ này. Tuy nhiên, đối với người Nhật, Núi Phú Sĩ  từ lâu đã là một địa điểm tâm linh rất quan trọng và là nguồn cảm hứng nghệ thuật.\n\n",
+        "tinh_thanh": "Shizuoka",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1646488601982"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1646576049502"
+          }
+        },
+        "slug": "nui-phu-si",
+        "__v": 0,
+        "tag": "Mountain"
+      },{
+        "_id": {
+          "$oid": "62504e97614eaf3ccdee59a8"
+        },
+        "ten": "Phu Si ",
+        "hinh": "/img/NuiPhuSi.png",
+        "mo_ta": "Japan Núi Phú Sĩ hay Núi Fuji nằm trên đảo Honshu là ngọn núi cao nhất Nhật Bản với độ cao 3.776,24 trên mực nước biển, là đỉnh núi cao thứ 2 trên một hòn đảo tại châu Á và thứ 7 trên thế giới. Đây là một núi lửa dạng tầng đã ngưng hoạt động với lần phun trào cuối vào năm 1707-1708",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1649430167314"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1649775801508"
+          }
+        },
+        "slug": "phu-si",
+        "__v": 0,
+        "tag": "Mountain"
+      },{
+        "_id": {
+          "$oid": "6270e91b37714a04377a05b9"
+        },
+        "ten": "Tháp Tokyo",
+        "hinh": "/img/TokyoTower.jpg",
+        "mo_ta": "Đứng trên tháp Tokyo Tower, bạn có thể phóng tầm mắt ra toàn cảnh Tokyo đẹp lộng lẫy khi thành phố lên đèn. Cảm giác choáng ngợp, bất ngờ trước một bức tranh đầy sắc màu của những ánh đèn nhấp nháy lung linh, phản ánh sự phồn hoa và hiện đại của thành phố Tokyo.\r\nVới độ cao 333 m, cao hơn tháp Effel 13 m, tháp Tokyo được lấy cảm hứng từ chính tháp Effel với lối kiến trúc được tự chống bằng thép cao nhất thế giới. Nơi đây mở cửa cho bạn tham quan từ 9 giờ sáng đến 8 giờ tối với cầu thang máy bên trong tháp, đưa bạn lên đến đỉnh cao nhất của Tokyo Tower.\r\nTháp Tokyo Tower được xem là một biểu tượng tái sinh của Nhật Bản sau chiến tranh nên đây cũng là một địa điểm mà bạn nên đến để cùng người dân địa phương để cảm nhận được sự tự hào lịch sử cũng như sự phát triển bền vững.",
+        "tag": "City",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651566875310"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651566875310"
+          }
+        },
+        "slug": "thap-tokyo",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "ten": "Lâu đài Himeji",
+        "hinh": "/img/Himeji.jpg",
+        "mo_ta": "Nằm ở thành phố Himeji thuộc tỉnh Hyogo, Himeji là một khối kiến trúc lâu đài được cải tạo thời xưa từ một pháo đài. Nơi đây được xem là hình mẫu kiến trúc lâu đài truyền thống của Nhật Bản và dù trải qua những trận chiến khốc liệt với bom đạn trong Chiến tranh Thế giới thứ 2 và trận động đất Kobe, lâu đài Himeji vẫn hoàn toàn vẹn nguyên lâu đài vẫn đứng sừng sững và giữ trọn các giá trị kiến trúc, nghệ thuật lẫn văn hóa.\r\nLâu đài Himeji được làm từ hơn 36 tấn gỗ và phủ thạch cao trắng muốt như những cánh hạc tung bay trên bầu trời rộng lớn.\r\nHimeji đã được UNESCO công nhận là di sản thế giới (văn hóa) vào năm 1993 và di tích lịch sử đặc biệt của Nhật Bản. Nhiều bộ phận khác nhau của thành Himeji đã được công nhận là quốc bảo hoặc di sản văn hóa quan trọng của quốc gia.",
+        "tag": "Castle",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567078061"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651719898260"
+          }
+        },
+        "slug": "lau-dai-himeji",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270eb0f37714a04377a05ca"
+        },
+        "ten": "Khu tưởng niệm hòa bình Hiroshima",
+        "hinh": "/img/khutuongniem.jpg",
+        "mo_ta": "Với cái tên Vòm Nguyên Tử, khu tưởng niệm hòa bình Hiroshima – Genbaku Dome như một minh chứng lịch sử cho trận bom nguyên tử mà Mỹ đã dội xuống mảnh đất này vào năm 1945. Hầu như khách du lịch nước ngoài du lịch tới Nhật Bản đều đến nơi này để tìm hiểu về những năm tháng lịch sử của nước Nhật, nỗi đau và cả cách mà họ đã vực dậy một dân tộc sau lửa đạn.\r\n\r\nĐến đây, bạn sẽ trầm mình trong không gian vương một chút buồn, một chút xót thương nhưng sẽ vẫn ra về với một tâm thế khâm phục và tự hào về sự quật cường của người Nhật.\r\n\r\nKhu tưởng niệm hòa bình Hiroshima – Genbaku Dome được người dân trên toàn thế giới xem là biểu tượng của hòa bình, kêu gọi các nước hãy loại bỏ vũ khí hạt nhân, chiến tranh và yêu chuộng hòa bình",
+        "tag": "Castle",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567375526"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651719915910"
+          }
+        },
+        "slug": "khu-tuong-niem-hoa-binh-hiroshima",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270eb5c37714a04377a05cf"
+        },
+        "ten": "Đền Itsukushima",
+        "hinh": "/img/DenItsukushima.jpg",
+        "mo_ta": "Còn được gọi với cái tên là Thần xã Itsukushina, ngôi đền Itsukushima này là một trong những biểu tượng đẹp nhất có giá trị nghệ thuật lẫn tâm linh của người Nhật.\r\n\r\nNổi tiếng với cánh cổng torii màu đỏ ngập trong bốn bề là nước, phía xa xa là dãy núi Misen, bức tranh này là một trong những thước cảnh đẹp bậc nhất, đậm chất Nhật Bản.",
+        "tag": "Temple",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567452891"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651567452891"
+          }
+        },
+        "slug": "den-itsukushima",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270ebb237714a04377a05d5"
+        },
+        "ten": "Làng lịch sử Shirakawa-Go và Gokayama",
+        "hinh": "/img/Shirakawa.jpg",
+        "mo_ta": "Làng cổ Shirakawa-go nằm ở chân núi Haku-san, tỉnh Gifu, miền Trung Nhật Bản, được UNESCO công nhận là di sản văn thế giới năm 1995. Khung cảnh đồng quê bình yên, thơ mộng và giản dị ở làng cổ Shirakawa-go là món quà mà du lịch Nhật Bản mang đến cho du khách. Lạc chân vào ngôi làng này, bạn sẽ có cảm giác như lạc vào thế giới cổ tích ngọt ngào.\r\n\r\nVới hơn 100 ngôi nhà cổ được xây dựng cách đây hàng trăm năm theo phong cách kiến trúc Gassho-zukuri, có nghĩa là “chắp tay cầu nguyện”. Mái nhà được lợp cỏ tranh hoặc rơm rất dày để chống đỡ các lớp tuyết trong mùa đông. Mái nhà được ghép với nhau như hình ảnh tay chắp lại cầu nguyện.",
+        "tag": "Contryside",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567538271"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651567538271"
+          }
+        },
+        "slug": "lang-lich-su-shirakawa-go-va-gokayama",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270ec3737714a04377a05dc"
+        },
+        "ten": "Đền Kinkaku-ji",
+        "hinh": "/img/Kinkaku-ji.jpg",
+        "mo_ta": "Nổi tiếng tại cố đô Kyoto, lại được ôm trọn bởi thiên nhiên xanh thẳm, mát rượi, đền Kinkaku-ji ở Kyoto là một công trình kiến trúc nổi tiếng vô cùng.Ngôi đền vàng này có 3 tầng mang ba phong cách kiến trúc, văn hóa khác nhau gồm Shinden, Bukkle và Trung Hoa, phía trước lại có một hồ nước điều hòa, khí hậu xung quanh trong lành, thanh mát.\r\n\r\nVào mùa đông, khi những bông tuyết rơi nhẹ, cảnh sắc xung quanh ngôi đền sẽ đẹp như một bức tranh, thu hút mọi ánh nhìn. Đền Kinkaku-ji ở Kyoto là một không gian thanh tịnh, trầm mặc và tao nhã, sẽ hiện ra trước mắt bạn.",
+        "tag": "Temple",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567671195"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651567671195"
+          }
+        },
+        "slug": "den-kinkaku-ji",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270ec9637714a04377a05eb"
+        },
+        "ten": "Công viên khỉ Jigoku Dani",
+        "hinh": "/img/congvienkhi.jpg",
+        "mo_ta": "Bạn đã bao giờ được thấy những chú khỉ đáng yêu, tinh nghịch sống tại vùng băng tuyết lạnh giá chưa? Hãy đến Công viên khỉ Jigoku Dani để được lần lượt trải nghiệm những điều có một không hai.\r\n\r\nTắm suối nước nóng thì quá quen thuộc rồi nhưng tắm suối nước nóng chung với các chú khỉ thì đảm bảo bạn chưa được thử qua. Tin tôi đi, đây sẽ là một trong những lần tắm táp đáng nhớ nhất trong đời.\r\n\r\nNgoài ra, nếu đến Nhật Bản rồi, bạn cũng nên ít nhất một lần ngâm mình trong suối nước nóng để chăm sóc cơ thể theo cách mà người Nhật đã làm. Đảm bảo, cơ thể sẽ khỏe hơn, tinh thần phấn chấn hơn để có đủ sức khỏe cho hành trình sắp tới.",
+        "tag": "Onsen",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567766503"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651672554358"
+          }
+        },
+        "slug": "cong-vien-khi-jigoku-dani",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6270ed5337714a04377a05f1"
+        },
+        "ten": "Đền Nezu",
+        "hinh": "/img/Đen-Nezu.jpg",
+        "mo_ta": "Được xây dựng vào năm 1705 trong thời kỳ Edo, đền Nezu là một trong những ngôi đền cổ nhất tại Nhật Bản. Nằm trong một không gian rộng, xanh mát và cực kì dễ chịu cho người ghé thăm có thể đi bộ tản mát, ngôi đền tựa như một công viên thu nhỏ đối với nhiều người. Sở dĩ gọi Nezu Shrine là một viên ngọc ẩn của Tokyo, bởi nó sở hữu những cảnh quan độc nhất mà lại ít người biết đến. Ngôi đền nổi tiếng nhất tại Kyoto, đền Fushimi Inari thu hút hàng nghìn lượt khách du lịch với những chiếc cổng torii màu đỏ tươi đặc biệt, bạn sẽ bất ngờ khi cũng có thể tìm thấy những chiếc cổng trời nổi tiếng đó tại đây, ngay giữa Tokyo này khi đến với Nezu.\r\n\r\nVô số những chiếc cổng torii màu đỏ tươi được xếp thành những hàng dài để tạo thành một đường hầm đỏ nơi du khách có thể đi qua. Khung cảnh của ngôi đền từ xa còn rực rỡ hơn với những bụi cây xanh, các ao nhỏ với cá chép bơi lội và sân thượng bằng gỗ.\r\n\r\nLễ hội nổi tiếng nhất của ngôi đền, Lễ Azalea (Tsutsuji Matsuri) sẽ được tổ chức vào đầu tháng 4 đến đầu tháng 5. Vào thời gian này, những bụi hoa đỗ quên sẽ nở rực rỡ bao phủ hết cả khu vườn trên đồi những sắc màu hồng, đỏ và trắng, giúp ngôi đền có được vẻ đẹp mùa xuân tuyệt vời nhất.\r\n\r\nLễ hội Bunkyo Azalea cũng có các quầy hàng bán thực phẩm, đồ thủ công, đồ chơi và quần áo, cũng như các hình thức giải trí khác như các bài hát và khiêu vũ truyền thống.\r\n\r\nCác vườn hoa đỗ quyên chỉ mở cửa cho công chúng vào thời điểm diễn ra Lễ hội Bunkyo Azalea, và yêu cầu một khoản phí vào cửa nho nhỏ.\r\n\r\nVào thời gian diễn ra lễ hội, ngôi đền sẽ thu hút cực kì nhiều người ghé thăm, vậy nên nếu như muốn có được cho mình những bức ảnh đẹp cùng với những chiếc cổng trời nổi tiếng, lời khuyên tốt nhất cho bạn là nên đến đền vào sáng sớm.",
+        "tag": "Temple",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651567955325"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651567955325"
+          }
+        },
+        "slug": "den-nezu",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d256f37427c2f2a5c70e"
+        },
+        "ten": "Akihabara",
+        "hinh": "/img/Akihabara.jpg",
+        "mo_ta": "Những fan hâm mộ của anime, manga hay âm nhạc Nhật Bản hẳn đều đã biết đến Akihabara - khu vực ở Tokyo được mệnh danh là thánh địa dành cho giới otaku ở Nhật. Không chỉ vậy nơi đây cũng được biết đến như là khu phố điện tử nổi tiếng nhất ở Nhật với rất nhiều cửa hàng bán đồ điện tử gia dụng cho tới các linh kiện máy tính, trò chơi điện tử, hoạt hình,... Trong bài viết lần này, chúng tôi sẽ giới thiệu đến các bạn một số địa điểm nổi tiếng ở Akihabara cùng với một vài địa điểm thú vị ít được biết đến khác. Hy vọng bạn sẽ có những trải nghiệm khó quên trong cuộc hành trình ghé thăm trung tâm văn hóa đại chúng nổi tiếng này.",
+        "tag": "City",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651888726221"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1652278257767"
+          }
+        },
+        "slug": "akihabara",
+        "__v": 0
+      }
+    ],
+    "du_khaches" : [
+      {
+        "_id": {
+          "$oid": "6275d766f37427c2f2a5c849"
+        },
+        "ho_ten": "Trần Phi Long",
+        "sdt": "0867720620",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d766f37427c2f2a5c84a"
+        },
+        "ho_ten": "Lưu Hải Tùng",
+        "sdt": "0985412351",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d766f37427c2f2a5c84d"
+        },
+        "ho_ten": "Phạm Hồng Linh",
+        "sdt": "0377371086",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d766f37427c2f2a5c84b"
+        },
+        "ho_ten": "Nguyễn Thanh Nhân",
+        "sdt": "0399606563",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d766f37427c2f2a5c84c"
+        },
+        "ho_ten": "Huỳnh Quốc Ngạn",
+        "sdt": "0867637774",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890022922"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d7e3f37427c2f2a5c8e0"
+        },
+        "ho_ten": "Trần Phi Long",
+        "sdt": "01231231212",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890147850"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890147850"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d8bcf37427c2f2a5c970"
+        },
+        "ho_ten": "Đặng Trung Kiên",
+        "sdt": "0866405559",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890364427"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890364427"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275d8bcf37427c2f2a5c96f"
+        },
+        "ho_ten": "Võ Tấn Hậu",
+        "sdt": "0386180584",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890364427"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890364427"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275da01f37427c2f2a5ca1b"
+        },
+        "ho_ten": "Trần Phi Long",
+        "sdt": "01231231212",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651890689347"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651890689347"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627bc29e4d333a7bde0eb154"
+        },
+        "ho_ten": "Trần Phi Long",
+        "sdt": "01231231212",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1652277918914"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1652277918914"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627c57a3f1b28e27387ab8ce"
+        },
+        "ho_ten": "Trần Phi Long",
+        "sdt": "01231231212",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1652316067330"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1652316067330"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627c57a3f1b28e27387ab8cf"
+        },
+        "ho_ten": "Lưu Hải Tùng",
+        "sdt": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1652316067331"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1652316067331"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634e50956b458a5ede362f4d"
+        },
+        "ho_ten": "dddddđ",
+        "sdt": "4444444000",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666076821362"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666076821362"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634e50956b458a5ede362f4e"
+        },
+        "ho_ten": "kkkkk",
+        "sdt": "99999999999",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666076821362"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666076821362"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634e51426b458a5ede362f92"
+        },
+        "ho_ten": "dddddđ",
+        "sdt": "4444444000",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666076994687"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666076994687"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634e51a46b458a5ede362fbc"
+        },
+        "ho_ten": "dddddđ",
+        "sdt": "4444444000",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666077092611"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666077092611"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb6a"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb6c"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb69"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287084"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287084"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb6e"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb6b"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb6d"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb71"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb70"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634f9e6f6229f768fa56fb6f"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666162287085"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e489c5918e9523530f80"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666245769038"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666245769038"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e82ec5918e9523530f9b"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666246702310"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246702310"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e85bc5918e9523530fb6"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666246747223"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246747223"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e86ec5918e9523530fd1"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666246766673"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246766673"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e8a4c5918e9523530fec"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666246820517"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246820517"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e8d5c5918e9523531004"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666246869047"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246869047"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e934c5918e9523531020"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666246964659"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246964659"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350e9a4c5918e952353103b"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247076409"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247076409"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ea1dc5918e9523531054"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247197678"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247197678"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ea21c5918e952353105b"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247201818"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247201818"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ebdac5918e9523531088"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247642768"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247642768"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ec0bc5918e95235310c2"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247691662"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247691662"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ec33c5918e95235310e7"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247731231"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247731231"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ec75c5918e9523531113"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247797536"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247797536"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ec75c5918e9523531112"
+        },
+        "ho_ten": "rang",
+        "sdt": "123123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247797536"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247797536"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350fbffc5918e952353140f"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666251775449"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666251775449"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "635149a873439bc31c91fce4"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666271656791"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666271656791"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514ab873439bc31c91fd16"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666271928759"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666271928759"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd61"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd64"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd68"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd69"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd60"
+        },
+        "ho_ten": "Trang",
+        "sdt": "0394075201",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd65"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd66"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd67"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd63"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd62"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd6a"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd6c"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd6b"
+        },
+        "ho_ten": "",
+        "sdt": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783384"
+          }
+        },
+        "__v": 0
+      }
+    ],
+    "huong_dan_viens": [
+      {
+        "_id": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "ho_ten": "Trần Phi Long",
+        "gioi_tinh": "Nam",
+        "sdt": "0123188223",
+        "email": "longb1805886@student.ctu.edu.vn",
+        "dia_chi": "Cái Răng, Cần Thơ",
+        "id_tai_khoan": {
+          "$oid": "6220c391a37e0b167e7dc8ff"
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1646575562833"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "624c0454f41646fb3b691d00"
+        },
+        "ho_ten": "Luu Hải Tùng",
+        "gioi_tinh": "Nam",
+        "sdt": "092348234",
+        "email": "tungb1805934@student.ctu.edu.vn",
+        "dia_chi": "Ninh Kieu, Cần Thơ",
+        "id_tai_khoan": {
+          "$oid": "6220c391a37e0b167e7dc8ff"
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1646575562833"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "624c060df41646fb3b691d01"
+        },
+        "ho_ten": "Nguyễn Thanh Nhân",
+        "gioi_tinh": "Nam",
+        "sdt": "0123218223",
+        "email": "nhanb1805797@student.ctu.edu.vn",
+        "dia_chi": "Cờ Đỏ, Cần Thơ",
+        "id_tai_khoan": {
+          "$oid": "6220c391a37e0b167e7dc8ff"
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1646575562833"
+          }
+        }
+      }
+    ],
+    "khach_hangs" : [
+      {
+        "_id": {
+          "$oid": "6224bb47116f7f6f79783f0d"
+        },
+        "ho_ten": "Trần Phi Long",
+        "gioi_tinh": "Nam",
+        "sdt": "01231231212",
+        "email": "longb1805886@student.ctu.edu.vn",
+        "dia_chi": "Cái Răng, Cần Thơ",
+        "id_tai_khoan": {
+          "$oid": "6220c391a37e0b167e7dc8ff"
+        },
+        "__v": 0,
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651826138380"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "6222c219a3ae8da2e91c8800"
+        },
+        "ho_ten": "Nguyễn Thanh Nhân",
+        "gioi_tinh": "Nam",
+        "sdt": "012312312123123",
+        "email": "nhanb180797@student.ctu.edu.vn",
+        "dia_chi": "Ninh Kiều, Cần Thơ",
+        "id_tai_khoan": {
+          "$oid": "6222c1b1a3ae8da2e91c87fb"
+        }
+      },{
+        "_id": {
+          "$oid": "6222c181a3ae8da2e91c87f7"
+        },
+        "ho_ten": "Trang",
+        "gioi_tinh": "Nam",
+        "sdt": "0394075201",
+        "email": "huyentrangst11b@gmail.com",
+        "dia_chi": "Ninh Kiều, Cần Thơ, Việt Nam",
+        "id_tai_khoan": {
+          "$oid": "6222c1aba3ae8da2e91c87fa"
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666159962550"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "631c49d7285d1ffef89b34bf"
+        },
+        "id_tai_khoan": {
+          "$oid": "631c49d3285d1ffef89b34bc"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1662798295510"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1662798295510"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6347aff1e3e7fca7c4e68db3"
+        },
+        "id_tai_khoan": {
+          "$oid": "6347aff1e3e7fca7c4e68db1"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665642481971"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665642481971"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6347f12dcd3117d9271f08ac"
+        },
+        "id_tai_khoan": {
+          "$oid": "6347f12ccd3117d9271f08aa"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665659181224"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665659181224"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6858948ded1bddb2e30"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc67f8948ded1bddb2e14"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910405428"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910405428"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6858948ded1bddb2e2e"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc67f8948ded1bddb2e10"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910405422"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910405422"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6848948ded1bddb2e26"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc67f8948ded1bddb2e0e"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910404972"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910404972"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6858948ded1bddb2e2a"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc67f8948ded1bddb2e12"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910405405"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910405405"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6858948ded1bddb2e2c"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc6848948ded1bddb2e20"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910405410"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910405410"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6858948ded1bddb2e28"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc67f8948ded1bddb2e1a"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910405221"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910424912"
+          }
+        },
+        "__v": 0,
+        "ho_ten": "Nguyễn Thị Huyền Trang",
+        "sdt": "11111",
+        "email": "kiemthe_526@yahoo.com.vn",
+        "dia_chi": "hthththt"
+      },{
+        "_id": {
+          "$oid": "634bc6868948ded1bddb2e32"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc6848948ded1bddb2e24"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910406442"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910406442"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6868948ded1bddb2e34"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc6848948ded1bddb2e22"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910406445"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910406445"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6868948ded1bddb2e36"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc67f8948ded1bddb2e1c"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910406461"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910406461"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc72d8948ded1bddb2e54"
+        },
+        "id_tai_khoan": {
+          "$oid": "634bc72c8948ded1bddb2e52"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910573703"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910573703"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ec1fc5918e95235310d5"
+        },
+        "id_tai_khoan": {
+          "$oid": "6350ec1fc5918e95235310d3"
+        },
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247711827"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247781410"
+          }
+        },
+        "__v": 0,
+        "ho_ten": "rang",
+        "sdt": "123123",
+        "email": "kiemthe_526@yahoo.com.vn",
+        "dia_chi": "Ninh Kiều, Cần Thơ, Việt Nam"
+      }
+    ],
+    "ky_thanh_toans": [
+      {
+        "_id": {
+          "$oid": "622b6881aca9b4ee4c299067"
+        },
+        "ngay_het_han": "01/09/2024",
+        "hinh_thuc": "Credit card",
+        "giam_gia": "5%",
+        "gia_goc": "1000000",
+        "thanh_tien": "950000",
+        "trang_thai": "Chưa thanh toán"
+      },{
+        "_id": {
+          "$oid": "624db13d19d8839dd74e05c2"
+        },
+        "ngay_het_han": "01/012/2024",
+        "hinh_thuc": "Credit card",
+        "giam_gia": "5%",
+        "gia_goc": "1000000",
+        "thanh_tien": "950000",
+        "trang_thai": "Đã thanh toán"
+      }
+    ],
+    "lich_trinhs" : [
+      {
+        "_id": {
+          "$oid": "622b5819aca9b4ee4c299041"
+        },
+        "id_dia_diem": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "trang_thai": "Đã tham quan",
+        "dich_vu": "Xe lửa, khách sạn 5 sao",
+        "su_co": "",
+        "ngay_o": "3",
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651678502385"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "625044d17880ca7542008471"
+        },
+        "id_dia_diem": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1649427665282"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1649427665282"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62519c8730c09e4f6d7bb581"
+        },
+        "id_dia_diem": {
+          "$oid": "624860580489641a803bcbe9"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "1",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1649515655235"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1649515655235"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627280c7cfddf1a5a5208552"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "2",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671239648"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671239648"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627280cecfddf1a5a5208558"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "2",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671246966"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671246966"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627280e5cfddf1a5a520855f"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671269052"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671269052"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728107cfddf1a5a520857e"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671303553"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671303553"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728173cfddf1a5a52085a8"
+        },
+        "id_dia_diem": {
+          "$oid": "6275d256f37427c2f2a5c70e"
+        },
+        "trang_thai": "Đã tham quan",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "5",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671411452"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651889702843"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6272818fcfddf1a5a52085bf"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb0f37714a04377a05ca"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671439253"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671439253"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627281adcfddf1a5a52085d7"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e91b37714a04377a05b9"
+        },
+        "trang_thai": "Đã tham quan",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671469581"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651679038936"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627281bfcfddf1a5a52085f2"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671487102"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671487102"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728211cfddf1a5a520861c"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671569346"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671569346"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728231cfddf1a5a5208632"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb0f37714a04377a05ca"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671601985"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671601985"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627282a8cfddf1a5a520865f"
+        },
+        "id_dia_diem": {
+          "$oid": "624860580489641a803bcbe9"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671720656"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671720656"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728389cfddf1a5a5208671"
+        },
+        "id_dia_diem": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671945940"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651671945940"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627283edcfddf1a5a5208683"
+        },
+        "id_dia_diem": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651672045165"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651672045165"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627285c7eb949ffa66537852"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đã tham quan",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651672519055"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1652316232915"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6272864feb949ffa6653787a"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb0f37714a04377a05ca"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "2",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651672655354"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651672655354"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627288faeb949ffa6653788d"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb5c37714a04377a05cf"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "2",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673338699"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651673338699"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627289f4eb949ffa665378ca"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e91b37714a04377a05b9"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "2",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673588571"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651673588571"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728a12eb949ffa665378df"
+        },
+        "id_dia_diem": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, tham gia khu trượt tuyết",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673618256"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651673657662"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728a56eb949ffa665378f3"
+        },
+        "id_dia_diem": {
+          "$oid": "624860580489641a803bcbe9"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, cáp treo lên núi",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673686069"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651673686069"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728b06eb949ffa6653794f"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb0f37714a04377a05ca"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673862627"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651673862627"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728b19eb949ffa66537959"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb5c37714a04377a05cf"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673881840"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651673893935"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728be0eb949ffa665379bd"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb5c37714a04377a05cf"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651674080525"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651674080525"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728bedeb949ffa665379c7"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb0f37714a04377a05ca"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651674093490"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651674093490"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728c6aeb949ffa66537a10"
+        },
+        "id_dia_diem": {
+          "$oid": "6270ebb237714a04377a05d5"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Homestay 5*",
+        "su_co": "",
+        "ngay_o": "5",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651674218732"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651674239836"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728c96eb949ffa66537a22"
+        },
+        "id_dia_diem": {
+          "$oid": "62485fac0489641a803bcbe8"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, tham gia khu trượt tuyết",
+        "su_co": "",
+        "ngay_o": "5",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651674262875"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651674273105"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6272904c524cfa8291f95b1b"
+        },
+        "id_dia_diem": {
+          "$oid": "6270ec3737714a04377a05dc"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651675212015"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651676004910"
+          }
+        },
+        "__v": 0,
+        "ngay_o": "3"
+      },{
+        "_id": {
+          "$oid": "6272931c524cfa8291f95b43"
+        },
+        "id_dia_diem": {
+          "$oid": "6270e9e637714a04377a05be"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651675932489"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651675932489"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62729436524cfa8291f95b86"
+        },
+        "id_dia_diem": {
+          "$oid": "6270ec9637714a04377a05eb"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khu nghỉ dưỡng suối nước nóng 5*",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676214402"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651676214402"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6272945f524cfa8291f95ba0"
+        },
+        "id_dia_diem": {
+          "$oid": "62504e97614eaf3ccdee59a8"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676255277"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651676255277"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62729538524cfa8291f95bf6"
+        },
+        "id_dia_diem": {
+          "$oid": "6270ed5337714a04377a05f1"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676472558"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651676472558"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62729546524cfa8291f95c00"
+        },
+        "id_dia_diem": {
+          "$oid": "6270ec3737714a04377a05dc"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676486411"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651676486411"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62729619524cfa8291f95c84"
+        },
+        "id_dia_diem": {
+          "$oid": "624860580489641a803bcbe9"
+        },
+        "trang_thai": "Đã tham quan",
+        "dich_vu": "Khách sạn 5*, cáp treo lên núi",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676697386"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651900548913"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62729663524cfa8291f95ca9"
+        },
+        "id_dia_diem": {
+          "$oid": "624860580489641a803bcbe9"
+        },
+        "trang_thai": "Đã tham quan",
+        "dich_vu": "",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676771695"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651888543018"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6272a0ee524cfa8291f96141"
+        },
+        "id_dia_diem": {
+          "$oid": "6270eb5c37714a04377a05cf"
+        },
+        "trang_thai": "Đang đến",
+        "dich_vu": "Khách sạn 5*, miễn phí vé tham quan",
+        "su_co": "",
+        "ngay_o": "3",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651679470222"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651679470222"
+          }
+        },
+        "__v": 0
+      }
+    ],
+    "tai_khoans": [
+      {
+        "_id": {
+          "$oid": "6220c391a37e0b167e7dc8ff"
+        },
+        "username": "Long Tran",
+        "password": "123",
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1649649640316"
+          }
+        }
+      },{
+        "_id": {
+          "$oid": "6222c1aba3ae8da2e91c87fa"
+        },
+        "username": "Tung Luu",
+        "password": "123"
+      },{
+        "_id": {
+          "$oid": "6222c1b1a3ae8da2e91c87fb"
+        },
+        "username": "Nhan Nguyen",
+        "password": "123"
+      },{
+        "_id": {
+          "$oid": "62232cb769f1e139ad2fad3c"
+        },
+        "username": "Linh",
+        "password": "123",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "622367df1deecad144d535c8"
+        },
+        "username": "Ngan",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1646487519095"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1646487519095"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "625ed376f0a359d737dbf48e"
+        },
+        "username": "s",
+        "password": "s",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1650381686588"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1650381686588"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "625ed386f0a359d737dbf491"
+        },
+        "username": "test thử",
+        "password": "được không",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1650381702223"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1650381702223"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627134f5264836d229d335d0"
+        },
+        "username": "ntnhan",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651586293651"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651586293651"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62713500264836d229d335da"
+        },
+        "username": "",
+        "password": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651586304975"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651586304975"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6274e88a65098e1f56092723"
+        },
+        "username": "hongroi",
+        "password": "hongroi",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651828874424"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651828874424"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6274e8fd65098e1f5609273a"
+        },
+        "username": "123123",
+        "password": "123123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651828989492"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651828989492"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6274e99065098e1f56092743"
+        },
+        "username": "111111",
+        "password": "111111",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651829136006"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651829136006"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6274e9ca65098e1f5609274f"
+        },
+        "username": "222222",
+        "password": "222222",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651829194259"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651829194259"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6274e9e265098e1f56092753"
+        },
+        "username": "111111",
+        "password": "111111",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651829218787"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651829218787"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6275cdabf37427c2f2a5c4d1"
+        },
+        "username": "Long",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651887531831"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651887531831"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "631c49d3285d1ffef89b34bc"
+        },
+        "username": "",
+        "password": "",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1662798291303"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1662798291303"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6347aff1e3e7fca7c4e68db1"
+        },
+        "username": "huyentrangst11b@gmail.com",
+        "password": "1234567890ht",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665642481231"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665642481231"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6347f12ccd3117d9271f08aa"
+        },
+        "username": "Tung Luu",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665659180434"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665659180434"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc67f8948ded1bddb2e14"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910399875"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910399875"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc67f8948ded1bddb2e12"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910399873"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910399873"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc67f8948ded1bddb2e0e"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910399811"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910399811"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc67f8948ded1bddb2e1a"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910399895"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910399895"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc67f8948ded1bddb2e10"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910399854"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910399854"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc67f8948ded1bddb2e1c"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910399958"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910399958"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6848948ded1bddb2e20"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910404411"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910404411"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6848948ded1bddb2e24"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910404455"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910404455"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc6848948ded1bddb2e22"
+        },
+        "username": "Heo",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910404452"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910404452"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "634bc72c8948ded1bddb2e52"
+        },
+        "username": "het",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1665910572959"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1665910572959"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6350ec1fc5918e95235310d3"
+        },
+        "username": "Heo con",
+        "password": "123",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666247711147"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247711147"
+          }
+        },
+        "__v": 0
+      }
+    ],
+    "thanh_toans" : [
+      {
+        "_id": {
+          "$oid": "63514ab873439bc31c91fd18"
+        },
+        "id_khach_hang": {
+          "$oid": "6222c181a3ae8da2e91c87f7"
+        },
+        "id_tour": {
+          "$oid": "62496b8b5ea8f467646e4498"
+        },
+        "giam_gia": "10%",
+        "thanh_tien": "10.000.000",
+        "phuong_thuc_tt": "Chia kỳ",
+        "ky_thanh_toan": [],
+        "trang_thai_duyet": "Chưa duyệt",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666271928774"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666271928774"
+          }
+        },
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "63514e0f73439bc31c91fd5e"
+        },
+        "id_khach_hang": {
+          "$oid": "6222c181a3ae8da2e91c87f7"
+        },
+        "id_tour": {
+          "$oid": "627294f2524cfa8291f95be2"
+        },
+        "giam_gia": "10%",
+        "thanh_tien": "195.000.000",
+        "phuong_thuc_tt": "Chia kỳ",
+        "ky_thanh_toan": [],
+        "trang_thai_duyet": "Chưa duyệt",
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1666272783053"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272783053"
+          }
+        },
+        "__v": 0
+      }
+    ],
+    "tours" : [
+      {
+        "_id": {
+          "$oid": "624861e10489641a803bcc0a"
+        },
+        "ten": "Du Lịch Núi Phú Sĩ - Hokkaido - Akihabara",
+        "gia": "10.000.000",
+        "khoi_hanh": "2022-05-06",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "15",
+        "so_ngay": "9",
+        "lich_trinh": [
+          {
+            "$oid": "62729663524cfa8291f95ca9"
+          },
+          {
+            "$oid": "6248617c0489641a803bcc07"
+          },
+          {
+            "$oid": "62728173cfddf1a5a52085a8"
+          },
+          "622b5819aca9b4ee4c299041"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1646490069279"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1652316068129"
+          }
+        },
+        "slug": "du-lich-nui-phu-si-hokkaido-akihabara",
+        "__v": 0,
+        "du_khach": [
+          {
+            "$oid": "6275d766f37427c2f2a5c849"
+          },
+          {
+            "$oid": "6275d766f37427c2f2a5c84a"
+          },
+          {
+            "$oid": "6275d766f37427c2f2a5c84b"
+          },
+          {
+            "$oid": "6275d766f37427c2f2a5c84c"
+          },
+          {
+            "$oid": "6275d766f37427c2f2a5c84d"
+          },
+          {
+            "$oid": "6275d8bcf37427c2f2a5c96f"
+          },
+          {
+            "$oid": "6275d8bcf37427c2f2a5c970"
+          },
+          {
+            "$oid": "627c57a3f1b28e27387ab8ce"
+          },
+          {
+            "$oid": "627c57a3f1b28e27387ab8cf"
+          }
+        ],
+        "hinh": [
+          "/img/Hokkaido.jpg",
+          "/img/Akihabara.jpg",
+          "/img/TokyoTower.jpg"
+        ]
+      },{
+        "_id": {
+          "$oid": "62496b8b5ea8f467646e4498"
+        },
+        "ten": "Du Lịch Núi Phú Sĩ - Hokkaido",
+        "gia": "10.000.000",
+        "khoi_hanh": "2022-05-04",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "15",
+        "so_ngay": "3",
+        "lich_trinh": [
+          {
+            "$oid": "622b5819aca9b4ee4c299041"
+          },
+          {
+            "$oid": "62729619524cfa8291f95c84"
+          }
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1646490069279"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666271929565"
+          }
+        },
+        "slug": "du-lich-nui-phu-si-hokkaido",
+        "__v": 0,
+        "du_khach": [
+          {
+            "$oid": "6275d7e3f37427c2f2a5c8e0"
+          },
+          {
+            "$oid": "634e50956b458a5ede362f4d"
+          },
+          {
+            "$oid": "634e50956b458a5ede362f4e"
+          },
+          {
+            "$oid": "634e51426b458a5ede362f92"
+          },
+          {
+            "$oid": "6350e489c5918e9523530f80"
+          },
+          {
+            "$oid": "6350e8a4c5918e9523530fec"
+          },
+          {
+            "$oid": "6350fbffc5918e952353140f"
+          },
+          {
+            "$oid": "635149a873439bc31c91fce4"
+          },
+          {
+            "$oid": "63514ab873439bc31c91fd16"
+          }
+        ],
+        "hinh": [
+          "/img/Hokkaido.jpg"
+        ]
+      },{
+        "_id": {
+          "$oid": "6272803dcfddf1a5a5208533"
+        },
+        "ten": "Tháp Tokyo",
+        "gia": "12.000.000",
+        "khoi_hanh": "2022-07-19",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": "12",
+        "du_khach": [
+          {
+            "$oid": "6275da01f37427c2f2a5ca1b"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb69"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb6a"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb6b"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb6c"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb6d"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb6e"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb6f"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb70"
+          },
+          {
+            "$oid": "634f9e6f6229f768fa56fb71"
+          },
+          {
+            "$oid": "6350e82ec5918e9523530f9b"
+          },
+          {
+            "$oid": "6350e85bc5918e9523530fb6"
+          },
+          {
+            "$oid": "6350e86ec5918e9523530fd1"
+          },
+          {
+            "$oid": "6350ec33c5918e95235310e7"
+          }
+        ],
+        "lich_trinh": [
+          {
+            "$oid": "627281adcfddf1a5a52085d7"
+          },
+          {
+            "$oid": "627285c7eb949ffa66537852"
+          },
+          {
+            "$oid": "62728a12eb949ffa665378df"
+          },
+          {
+            "$oid": "62728a56eb949ffa665378f3"
+          }
+        ],
+        "hinh": [
+          "/img/TokyoTower.jpg",
+          "/img/Himeji.jpg",
+          "/img/Hokkaido.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671101713"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247731914"
+          }
+        },
+        "slug": "thap-tokyo",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627281ffcfddf1a5a5208611"
+        },
+        "ten": "Lâu đài Himeji",
+        "gia": "13.000.000",
+        "khoi_hanh": "2022-06-18",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": "10",
+        "du_khach": [
+          {
+            "$oid": "6350e8d5c5918e9523531004"
+          },
+          {
+            "$oid": "6350e9a4c5918e952353103b"
+          },
+          {
+            "$oid": "6350ea21c5918e952353105b"
+          },
+          {
+            "$oid": "6350ebdac5918e9523531088"
+          },
+          {
+            "$oid": "6350ec0bc5918e95235310c2"
+          },
+          {
+            "$oid": "6350ec75c5918e9523531112"
+          },
+          {
+            "$oid": "6350ec75c5918e9523531113"
+          }
+        ],
+        "lich_trinh": [
+          {
+            "$oid": "62728211cfddf1a5a520861c"
+          },
+          {
+            "$oid": "6272864feb949ffa6653787a"
+          },
+          {
+            "$oid": "627288faeb949ffa6653788d"
+          },
+          {
+            "$oid": "627289f4eb949ffa665378ca"
+          }
+        ],
+        "hinh": [
+          "/img/Himeji.jpg",
+          "/img/khutuongniem.jpg",
+          "/img/DenItsukushima.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651671551985"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666247798215"
+          }
+        },
+        "slug": "lau-dai-himeji",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728af0eb949ffa66537944"
+        },
+        "ten": "Khu tưởng niệm hòa bình Hiroshima",
+        "gia": "8.000.000",
+        "khoi_hanh": "2022-06-15",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": "6",
+        "du_khach": [],
+        "lich_trinh": [
+          {
+            "$oid": "62728b06eb949ffa6653794f"
+          },
+          {
+            "$oid": "62728b19eb949ffa66537959"
+          }
+        ],
+        "hinh": [
+          "/img/khutuongniem.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651673840695"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651829625850"
+          }
+        },
+        "slug": "khu-tuong-niem-hoa-binh-hiroshima",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728bbfeb949ffa665379b2"
+        },
+        "ten": "Đền Itsukushima",
+        "gia": "13.000.000",
+        "khoi_hanh": "2022-07-12",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": "6",
+        "du_khach": [],
+        "lich_trinh": [
+          {
+            "$oid": "62728be0eb949ffa665379bd"
+          },
+          {
+            "$oid": "62728bedeb949ffa665379c7"
+          }
+        ],
+        "hinh": [
+          "/img/DenItsukushima.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651674047561"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651674094449"
+          }
+        },
+        "slug": "den-itsukushima",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728c29eb949ffa665379ec"
+        },
+        "ten": "Làng lịch sử Shirakawa-Go và Gokayama",
+        "gia": "15.000.000",
+        "khoi_hanh": "2022-10-20",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": "10",
+        "du_khach": [
+          {
+            "$oid": "634e51a46b458a5ede362fbc"
+          }
+        ],
+        "lich_trinh": [
+          {
+            "$oid": "62728c6aeb949ffa66537a10"
+          },
+          {
+            "$oid": "62728c96eb949ffa66537a22"
+          }
+        ],
+        "hinh": [
+          "/img/Shirakawa.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651674153464"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666077093285"
+          }
+        },
+        "slug": "lang-lich-su-shirakawa-go-va-gokayama",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "62728ff2524cfa8291f95b10"
+        },
+        "ten": "Đền Kinkaku-ji",
+        "gia": "8.000.000",
+        "khoi_hanh": "2022-06-16",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": null,
+        "du_khach": [
+          {
+            "$oid": "6350e934c5918e9523531020"
+          }
+        ],
+        "lich_trinh": [
+          {
+            "$oid": "6272904c524cfa8291f95b1b"
+          },
+          {
+            "$oid": "6272931c524cfa8291f95b43"
+          }
+        ],
+        "hinh": [
+          "/img/Kinkaku-ji.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651675122307"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666246965340"
+          }
+        },
+        "slug": "den-kinkaku-ji",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "6272940b524cfa8291f95b72"
+        },
+        "ten": "Công viên khỉ Jigoku Dani",
+        "gia": "15.000.000",
+        "khoi_hanh": "2023-02-18",
+        "nguoi_hd": {
+          "$oid": "6220c2a6a37e0b167e7dc8fc"
+        },
+        "so_cho": "18",
+        "so_ngay": "6",
+        "du_khach": [],
+        "lich_trinh": [
+          {
+            "$oid": "62729436524cfa8291f95b86"
+          },
+          {
+            "$oid": "6272945f524cfa8291f95ba0"
+          }
+        ],
+        "hinh": [
+          "/img/congvienkhi.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676171724"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1651676271375"
+          }
+        },
+        "slug": "a",
+        "__v": 0
+      },{
+        "_id": {
+          "$oid": "627294f2524cfa8291f95be2"
+        },
+        "ten": "Đền Nezu",
+        "gia": "15.000.000",
+        "khoi_hanh": "2022-05-13",
+        "nguoi_hd": {
+          "$oid": "624c0454f41646fb3b691d00"
+        },
+        "so_cho": "18",
+        "so_ngay": "6",
+        "du_khach": [
+          {
+            "$oid": "627bc29e4d333a7bde0eb154"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd60"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd61"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd62"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd63"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd64"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd65"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd66"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd67"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd68"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd69"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd6a"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd6b"
+          },
+          {
+            "$oid": "63514e0f73439bc31c91fd6c"
+          }
+        ],
+        "lich_trinh": [
+          {
+            "$oid": "62729538524cfa8291f95bf6"
+          },
+          {
+            "$oid": "62729546524cfa8291f95c00"
+          },
+          {
+            "$oid": "6272a0ee524cfa8291f96141"
+          }
+        ],
+        "hinh": [
+          "/img/Đen-Nezu.jpg",
+          "/img/Kinkaku-ji.jpg"
+        ],
+        "createdAt": {
+          "$date": {
+            "$numberLong": "1651676402889"
+          }
+        },
+        "updatedAt": {
+          "$date": {
+            "$numberLong": "1666272785190"
+          }
+        },
+        "slug": "a-N7VYPnXni",
+        "__v": 0
+      }
+    ]
+   
+}
