@@ -31,6 +31,7 @@ class TourController {
                         tour.hinh = hinh;
                         tour.tags = tags;
                         tour.so_ngay = so_ngay;
+                        
                     })
                     res.json(tours);
                 }

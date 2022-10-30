@@ -12,11 +12,18 @@ const db=require('./app/config/db');
 const { Server } = require('http');
 db.connect();
 
+
 //static files
 app.use(express.static(path.join(__dirname, 'public')));
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));//middleware
+
+// console.log(app);
+console.log(app.get(db), (req, res) =>
+    {
+        res.send(db);
+    });
+
 
 //Init Router
 route(app);

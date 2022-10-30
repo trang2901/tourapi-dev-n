@@ -3,7 +3,10 @@ const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 const TaiKhoan=new Schema({
     username: String,
-    password:String,
+    password: String,
+    diachi: String,
+    hoten: String,
+    sodienthoai: String,
 },{
     timestamps:true
 })
