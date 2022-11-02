@@ -21,6 +21,7 @@ const Tour=new Schema({
     diemkhoihanh: String,
     diemnoibat: String,
     thoigian: String,
+    chitietlichtrinh: String,
 
     
 },{
