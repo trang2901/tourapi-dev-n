@@ -14,6 +14,11 @@ const Tour=new Schema({
     slug: { type: String, slug: 'ten', unique: true, },
     hinh:[String],
     trangthai: String,
+    matour: String,
+    khachsan: String,
+    amthuc: String,
+    phuongtien: String,
+    
 },{
     timestamps:true
 })
