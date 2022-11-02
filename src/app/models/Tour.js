@@ -18,6 +18,8 @@ const Tour=new Schema({
     khachsan: String,
     amthuc: String,
     phuongtien: String,
+    diemkhoihanh: String,
+    
     
 },{
     timestamps:true
