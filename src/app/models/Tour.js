@@ -22,7 +22,6 @@ const Tour=new Schema({
     diemnoibat: String,
     thoigian: String,
     chitietlichtrinh: String,
-
     
 },{
     timestamps:true

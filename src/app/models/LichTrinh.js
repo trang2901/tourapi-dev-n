@@ -8,7 +8,8 @@ const LichTrinh=new Schema({
     su_co:String,
     ngay_o:String,
     chitiet: String,
-    noinghichan: String
+    noinghichan: String,
+    chitietlichtrinh: [String],
 },{
     timestamps:true
 });
