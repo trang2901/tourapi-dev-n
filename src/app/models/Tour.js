@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 const slug = require('mongoose-slug-generator');
-const mien = require('mongoose-slug-generator');
+
 const Schema=mongoose.Schema;
 const Tour=new Schema({
     ten: String,
@@ -22,13 +22,12 @@ const Tour=new Schema({
     diemnoibat: String,
     thoigian: String,
     chitietlichtrinh: String, 
-    loaimien: String,
-    mien: {type: String, mien: 'loaimien', unique: true}
+  
 },{
     timestamps:true
 })
 
 mongoose.plugin(slug);
-mongoose.plugin(mien);
+
 module.exports=mongoose.model('tour',Tour);
 
