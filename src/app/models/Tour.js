@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 const slug = require('mongoose-slug-generator');
-
+const mien = require('mongoose-slug-generator');
 const Schema=mongoose.Schema;
 const Tour=new Schema({
     ten: String,
