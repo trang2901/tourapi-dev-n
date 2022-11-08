@@ -109,35 +109,7 @@ class TourController {
                 message: err
             });
     }
-//Get mien
-// [GET] /tour/:slug
-detail(req, res) {
-    Tour.findOne({ mien: req.params.mien })
-        .populate({
-            path: 'lich_trinh',
-            populate: { path: 'id_dia_diem' }
-        })
-        .populate('nguoi_hd')
-        .populate('du_khach')
-        .lean()
-        .then(tour => {
-            let hinh = [];
-            let tags = [];
-            let so_ngay = '0';
-            tour.lich_trinh.forEach(lichtrinh => {
-                hinh.push(lichtrinh.id_dia_diem.hinh);
-                tags.push(lichtrinh.id_dia_diem.tag);
-                so_ngay = parseInt(so_ngay) + parseInt(lichtrinh.ngay_o);
-            })
-            tour.hinh = hinh;
-            tour.tags = tags;
-            tour.so_ngay = so_ngay;
-            res.json(tour);
-        })
-        .catch(err => {
-            message: err
-        });
-}
+
     // [POST] /tour
     create(req, res) {
         const tour = new Tour(req.body);

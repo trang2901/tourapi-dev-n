@@ -8,7 +8,7 @@ router.get('/',TourController.show);
 router.get('/page/:page',TourController.showPage);
 router.get('/allTags',TourController.showAllTags);
 router.get('/:slug',TourController.detail);
-router.get('/:mien', TourController.detail);
+
 router.post('/',TourController.create);
 router.put('/:id',TourController.update);
 router.patch('/:id',TourController.updatePatch);
