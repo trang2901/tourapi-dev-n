@@ -11,7 +11,7 @@ const Tour=new Schema({
     so_ngay:String,
     du_khach:[{ type: Schema.Types.ObjectId, ref: 'du_khach' }],
     lich_trinh:[{ type: Schema.Types.ObjectId, ref: 'lich_trinh' }],
-    slug: { type: String, slug: 'ten', unique: true, },
+    slug: { type: String, slug: 'matour', unique: true, },
     hinh:[String],
     trangthai: String,
     matour: String,
@@ -21,8 +21,7 @@ const Tour=new Schema({
     diemkhoihanh: String,
     diemnoibat: String,
     thoigian: String,
-    chitietlichtrinh: String,
-    
+    chitietlichtrinh: String, 
 },{
     timestamps:true
 })
