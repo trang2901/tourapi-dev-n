@@ -29,6 +29,6 @@ const Tour=new Schema({
 })
 
 mongoose.plugin(slug);
-
+mongoose.plugin(mien);
 module.exports=mongoose.model('tour',Tour);
 
