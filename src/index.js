@@ -4,7 +4,9 @@ const app=express();
 var cors = require('cors');
 const path=require('path');
 
+const creds = require('./credential.json');
 let nodemailer = require('nodemailer');
+
 app.use(cors());
 const port= process.env.PORT || 3000;
 
@@ -76,6 +78,5 @@ console.log(app.get(db), (req, res) =>
 
 //Init Router
 route(app);
-
 app.listen(port);
 
