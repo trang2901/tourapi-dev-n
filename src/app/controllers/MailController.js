@@ -76,8 +76,12 @@ class MailController {
       const mailOptions = {
         from : 'DorisTour',
         to : req.body.email,
-        subject:'đây',
-        html: `Xin chào, This email from Doristour <noreply@.com> <br /><br /> 'Cảm ơn bạn đã cho chúng tôi cơ hội được phục vụ!'`
+        subject:'DorisTour đã tạo đơn hàng của Anh/Chị',
+        html: `
+        <p style={{color: 'red'}}>Kính chào quý khách!</p><br />
+        Email này được gửi từ Doristour!<br /><br />
+        'Cảm ơn bạn đã cho chúng tôi cơ hội được phục vụ!'
+        `
     }
 
     transporter.sendMail(mailOptions, (err, data) => {
