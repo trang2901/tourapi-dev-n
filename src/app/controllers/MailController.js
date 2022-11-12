@@ -74,10 +74,10 @@ class MailController {
     //   var company = req.body.company
 
       const mailOptions = {
-        from :  req.body.name,
+        from : 'DorisTour',
         to : req.body.email,
         subject:  req.body.subject,
-        html: `${req.body.name} from ${req.body.company} <noreply@${req.body.name}.com> <br /><br /> ${req.body.message}`
+        html: `Xin chào, This email from Doristour <noreply@.com> <br /><br /> 'Cảm ơn bạn đã cho chúng tôi cơ hội được phục vụ!'`
     }
 
     transporter.sendMail(mailOptions, (err, data) => {
