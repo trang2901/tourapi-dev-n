@@ -70,6 +70,8 @@ app.use(express.urlencoded({ extended: true }));//middleware
   //     }
   //   });
 // console.log(app);
+
+
 console.log(app.get(db), (req, res) =>
     {
         res.send(db);
