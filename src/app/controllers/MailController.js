@@ -10,16 +10,6 @@ class MailController {
                 message: err
             });
     }
-    
-    // [GET] /diadiem/:slug
-    detail(req, res) {
-        Mail.findOne({ slug: req.params.slug })
-            .lean()
-            .then(mails => res.json(mails))
-            .catch(err => {
-                message: err
-            });
-    }
 
     //[POST] /diadiem
     create(req, res) {
