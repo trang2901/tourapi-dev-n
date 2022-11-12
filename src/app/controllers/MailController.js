@@ -80,13 +80,12 @@ class MailController {
                     <img src ="cid:thankyou" />
     
                     `,
-                    attachments: [
-                        {
-                            filename: 'thankyou.jpg',
-                            path: __dirname + '/thankyou.jpg',
-                            cid: "thankyou"
-                        }
-                    ]
+                    attachments: [{
+                        filename: 'thankyou.jpg',
+                        path: '../../../thankyou.jpg',
+                        cid: 'thankyou' //same cid value as in the html img src
+                    }]
+                    
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
                     if(err){
