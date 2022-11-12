@@ -57,16 +57,16 @@ class MailController {
 
     //[POST] /diadiem
     create(req, res) {
-        const mails = new Mail(req.body);
-        mails.save()
-            .then(data => {
-                res.json(data);
-            })
-            .catch(err => {
-                res.json({
-                    message: err
-                });
-            })
+        // const mails = new Mail(req.body);
+        // mails.save()
+        //     .then(data => {
+        //         res.json(data);
+        //     })
+        //     .catch(err => {
+        //         res.json({
+        //             message: err
+        //         });
+        //     })
     //   var email = req.body.email
     //   var message = req.body.message
     //   var subject = req.body.subject
@@ -76,7 +76,7 @@ class MailController {
       const mailOptions = {
         from : 'DorisTour',
         to : req.body.email,
-        subject:  req.body.subject,
+        subject:'đây',
         html: `Xin chào, This email from Doristour <noreply@.com> <br /><br /> 'Cảm ơn bạn đã cho chúng tôi cơ hội được phục vụ!'`
     }
 
