@@ -1,6 +1,6 @@
 
 const Mail = require('../models/Mail');
-const img = require('../../public/img/angiang.jpg')
+
 const creds = require('../../credential.json');
 let nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
@@ -67,7 +67,7 @@ class MailController {
                     to : req.body.email,
                     subject:'DORISTOUR ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
                     html: `
-                    <img src=${img} />
+                    
                     DorisTour kính chào quý khách!<br />
                     Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
                     DorisTour đã tiếp nhận đơn đặt tour của bạn. <br />
