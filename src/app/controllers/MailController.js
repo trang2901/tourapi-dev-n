@@ -83,7 +83,7 @@ class MailController {
                     attachments: [
                         {
                             filename: 'thankyou.jpg',
-                            path: __dirname + '../../../thankyou.jpg',
+                            path: __dirname + '/thankyou.jpg',
                             cid: "thankyou"
                         }
                     ]
