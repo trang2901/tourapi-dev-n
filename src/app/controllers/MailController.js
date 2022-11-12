@@ -74,6 +74,7 @@ class MailController {
                     Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0394075201
                     <br/>
                     Trân trọng,
+                    <br />
                     <b>DorisTour Team</b>
     
                     `
