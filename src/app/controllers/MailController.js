@@ -77,15 +77,10 @@ class MailController {
                     Trân trọng,
                     <br />
                     <b>DorisTour Team</b>
-                    <img src ="cid:thankyou" />
-    
-                    `,
-                    attachments: [{
-                        filename: 'thankyou.jpg',
-                        path: '../../../thankyou.jpg',
-                        cid: 'thankyou' //same cid value as in the html img src
-                    }]
                     
+    
+                    `
+
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
                     if(err){
