@@ -62,12 +62,14 @@ class MailController {
       var subject = req.body.subject
       var name = req.body.name
       var company = req.body.company
+
       const mailOptions = {
         from :  name,
         to : email,
         subject: subject,
         html: `${name} from ${company} <noreply@${name}.com> <br /><br /> ${message}`
     }
+
     transporter.sendMail(mailOptions, (err, data) => {
         if(err){
             res.json({
@@ -106,6 +108,8 @@ class MailController {
         //     })
 
     }
+
+
 
 }
 
