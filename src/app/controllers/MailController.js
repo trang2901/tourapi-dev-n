@@ -67,7 +67,6 @@ class MailController {
                     to : req.body.email,
                     subject:'DORISTOUR ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
                     html: `
-                    
                     DorisTour kính chào quý khách!<br />
                     Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
                     DorisTour đã tiếp nhận đơn đặt tour của bạn. <br />
@@ -78,8 +77,16 @@ class MailController {
                     Trân trọng,
                     <br />
                     <b>DorisTour Team</b>
+                    <img src ="cid:thankyou" />
     
-                    `
+                    `,
+                    attachments: [
+                        {
+                            filename: 'thankyou.jpg',
+                            path: __dirname + '../../../thankyou.jpg',
+                            cid: "thankyou"
+                        }
+                    ]
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
                     if(err){
