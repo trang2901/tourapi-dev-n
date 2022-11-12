@@ -96,16 +96,16 @@ class MailController {
       {
           res.send(db);
       });
-        // const mails = new Mail(req.body);
-        // mails.save()
-        //     .then(data => {
-        //         res.json(data);
-        //     })
-        //     .catch(err => {
-        //         res.json({
-        //             message: err
-        //         });
-        //     })
+        const mails = new Mail(req.body);
+        mails.save()
+            .then(data => {
+                res.json(data);
+            })
+            .catch(err => {
+                res.json({
+                    message: err
+                });
+            })
 
     }
 
