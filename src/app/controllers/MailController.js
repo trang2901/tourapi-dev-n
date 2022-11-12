@@ -57,7 +57,7 @@ class MailController {
 
     //[POST] /diadiem
     create(req, res) {
-    var email = req.body.email
+      var email = req.body.email
       var message = req.body.message
       var subject = req.body.subject
       var name = req.body.name
@@ -96,8 +96,9 @@ class MailController {
       {
           res.send(db);
       });
-        const mails = new Mail(req.body);
-        mails.save()
+
+        // const mails = new Mail(req.body);
+        mailOptions.save()
             .then(data => {
                 res.json(data);
             })
