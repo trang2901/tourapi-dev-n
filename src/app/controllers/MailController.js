@@ -57,17 +57,27 @@ class MailController {
 
     //[POST] /diadiem
     create(req, res) {
-      var email = req.body.email
-      var message = req.body.message
-      var subject = req.body.subject
-      var name = req.body.name
-      var company = req.body.company
+        const mails = new Mail(req.body);
+        mails.save()
+            .then(data => {
+                res.json(data);
+            })
+            .catch(err => {
+                res.json({
+                    message: err
+                });
+            })
+    //   var email = req.body.email
+    //   var message = req.body.message
+    //   var subject = req.body.subject
+    //   var name = req.body.name
+    //   var company = req.body.company
 
       const mailOptions = {
-        from :  name,
-        to : email,
-        subject: subject,
-        html: `${name} from ${company} <noreply@${name}.com> <br /><br /> ${message}`
+        from :  req.body.name,
+        to : req.body.email,
+        subject:  req.body.subject,
+        html: `${req.body.name} from ${req.body.company} <noreply@${req.body.name}.com> <br /><br /> ${req.body.message}`
     }
 
     transporter.sendMail(mailOptions, (err, data) => {
@@ -97,16 +107,7 @@ class MailController {
           res.send(db);
       });
 
-        // const mails = new Mail(req.body);
-        mailOptions.save()
-            .then(data => {
-                res.json(data);
-            })
-            .catch(err => {
-                res.json({
-                    message: err
-                });
-            })
+        
 
     }
 
