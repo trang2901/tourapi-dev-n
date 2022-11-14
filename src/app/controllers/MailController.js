@@ -63,20 +63,20 @@ class MailController {
             .then(data => {
                 //gửi mail
                 const mailOptions = {
-                    from : 'DorisTour',
+                    from : '"DREAMCASTERS " <dreamcasters29010502@gmail.com',
                     to : req.body.email,
-                    subject:'DORISTOUR ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
+                    subject:'DREAMCASTERS ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
                     html: `
-                    DorisTour kính chào quý khách!<br />
+                    <b>DREAMCASTERS</b> kính chào quý khách!<br />
                     Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
-                    DorisTour đã tiếp nhận đơn đặt tour của bạn. <br />
+                    <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
                     Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
                     <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
                     Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0394075201
                     <br/>
                     Trân trọng,
                     <br />
-                    <b>DorisTour Team</b>
+                    <b>DREAMCASTERS Team</b>
                     
     
                     `
