@@ -79,8 +79,12 @@ class MailController {
                     <b>DREAMCASTERS Team</b>
                     
     
-                    `
-
+                    `,
+                    attachments: [
+                        {
+                            filename: 'thanks.jpg', path: '../../../thanks.jpg'
+                        }
+                    ]
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
                     if(err){
