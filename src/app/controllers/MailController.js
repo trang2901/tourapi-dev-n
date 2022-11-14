@@ -14,10 +14,7 @@ let transporter = nodemailer.createTransport({
       pass: creds.auth.pass 
     },
   });
-transporter.use('compile', hbs({
-    viewEngine: 'express-handlebars',
-    viewPath: '../views/'
-}));
+
 // app.post('https://tourapi-dev-n.herokuapp.com/mail', (req, res, next) => {
 //       var email = req.body.email
 //       var message = req.body.message
@@ -70,23 +67,23 @@ class MailController {
                     from : '"DREAMCASTERS " <dreamcasters29010502@gmail.com',
                     to : req.body.email,
                     subject:'DREAMCASTERS ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
-                    // html: `
-                    // <b>DREAMCASTERS</b> kính chào quý khách!<br />
-                    // Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
-                    // <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
-                    // <br />
-                    // Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
-                    // <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
-                    // <br />
-                    // Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0394075201
-                    // <br/><br/>
-                    // Trân trọng,
-                    // <br />
-                    // <b>DREAMCASTERS Team</b>
+                    html: `
+                    <b>DREAMCASTERS</b> kính chào quý khách!<br />
+                    Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
+                    <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
+                    <br />
+                    Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
+                    <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
+                    <br />
+                    Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0394075201
+                    <br/><br/>
+                    Trân trọng,
+                    <br />
+                    <b>DREAMCASTERS Team</b>
                     
     
-                    // `,
-                  template: 'index'
+                    `,
+                
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
                     if(err){
