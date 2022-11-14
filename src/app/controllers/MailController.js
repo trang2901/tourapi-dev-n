@@ -3,6 +3,7 @@ const Mail = require('../models/Mail');
 
 const creds = require('../../credential.json');
 let nodemailer = require('nodemailer');
+const hbs = require('nodemailer-express-handlebars');
 let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com", 
       port: 587,
@@ -13,7 +14,10 @@ let transporter = nodemailer.createTransport({
       pass: creds.auth.pass 
     },
   });
-
+transporter.use('compile', hbs({
+    viewEngine: 'express-handlebars',
+    viewPath: '../views/'
+}));
 // app.post('https://tourapi-dev-n.herokuapp.com/mail', (req, res, next) => {
 //       var email = req.body.email
 //       var message = req.body.message
@@ -82,7 +86,7 @@ class MailController {
                     
     
                     `,
-                  
+                  template: 'index'
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
                     if(err){
