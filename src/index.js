@@ -4,10 +4,16 @@ const app=express();
 var cors = require('cors');
 const path=require('path');
 
-// const creds = require('./credential.json');
-// let nodemailer = require('nodemailer');
+// const cors = require('cors');
+const corsOptions ={
+    origin:'https://tourapi-dev-n.herokuapp.com/', 
+    credentials:true,            //access-control-allow-credentials:true
+    optionSuccessStatus:200
+}
+app.use(cors(corsOptions));
 
-app.use(cors());
+
+// app.use(cors());
 const port= process.env.PORT || 3000;
 
 //Connect to database
