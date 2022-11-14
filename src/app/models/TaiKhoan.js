@@ -7,6 +7,7 @@ const TaiKhoan=new Schema({
     diachi: String,
     hoten: String,
     sodienthoai: String,
+    email: String
 },{
     timestamps:true
 })
