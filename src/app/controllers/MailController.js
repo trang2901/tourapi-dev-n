@@ -67,22 +67,50 @@ class MailController {
                     from : '"DREAMCASTERS " <dreamcasters29010502@gmail.com',
                     to : req.body.email,
                     subject:'DREAMCASTERS ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
-                    html: `
-                    <b>DREAMCASTERS</b> kính chào quý khách!<br />
-                    Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
-                    <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
-                    <br />
-                    Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
-                    <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
-                    <br />
-                    Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0394075201
-                    <br/><br/>
-                    Trân trọng,
-                    <br />
-                    <b>DREAMCASTERS Team</b>
+                    // html: `
+                    // <b>DREAMCASTERS</b> kính chào quý khách!<br />
+                    // Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
+                    // <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
+                    // <br />
+                    // Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
+                    // <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
+                    // <br />
+                    // Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0394075201
+                    // <br/><br/>
+                    // Trân trọng,
+                    // <br />
+                    // <b>DREAMCASTERS Team</b>
                     
     
-                    `,
+                    // `,
+                    html : 
+                    `
+                    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        h1 { 
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <h2>Welcome to our App</h2>
+    <ul>
+        <li>About</li>
+        <li>Home</li>
+        <li>Contact</li>
+    </ul>
+    
+</body>
+</html>
+                    `
                 
                 }
                 transporter.sendMail(mailOptions, (err, data) => {
