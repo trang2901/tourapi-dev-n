@@ -94,117 +94,266 @@ class MailController {
                                 <title>Document</title>
 
                                 <style>
-                                body{margin-top:20px;
-                                    background:#eee;
-                                    }
-                                    
-                                    /*Invoice*/
-                                    .invoice .top-left {
-                                        font-size:65px;
-                                        color:#3ba0ff;
-                                    }
-                                    
-                                    .invoice .top-right {
-                                        text-align:right;
-                                        padding-right:20px;
-                                    }
-                                    
-                                    .invoice .table-row {
-                                        margin-left:-15px;
-                                        margin-right:-15px;
-                                        margin-top:25px;
-                                    }
-                                    
-                                    .invoice .payment-info {
-                                        font-weight:500;
-                                    }
-                                    
-                                    .invoice .table-row .table>thead {
-                                        border-top:1px solid #ddd;
-                                    }
-                                    
-                                    .invoice .table-row .table>thead>tr>th {
-                                        border-bottom:none;
-                                    }
-                                    
-                                    .invoice .table>tbody>tr>td {
-                                        padding:8px 20px;
-                                    }
-                                    
-                                    .invoice .invoice-total {
-                                        margin-right:-10px;
-                                        font-size:16px;
-                                    }
-                                    
-                                    .invoice .last-row {
-                                        border-bottom:1px solid #ddd;
-                                    }
-                                    
-                                    .invoice-ribbon {
-                                        width:85px;
-                                        height:88px;
-                                        overflow:hidden;
-                                        position:absolute;
-                                        top:-1px;
-                                        right:14px;
-                                    }
-                                    
-                                    .ribbon-inner {
-                                        text-align:center;
-                                        -webkit-transform:rotate(45deg);
-                                        -moz-transform:rotate(45deg);
-                                        -ms-transform:rotate(45deg);
-                                        -o-transform:rotate(45deg);
-                                        position:relative;
-                                        padding:7px 0;
-                                        left:-5px;
-                                        top:11px;
-                                        width:120px;
-                                        background-color:#66c591;
-                                        font-size:15px;
-                                        color:#fff;
-                                    }
-                                    
-                                    .ribbon-inner:before,.ribbon-inner:after {
-                                        content:"";
-                                        position:absolute;
-                                    }
-                                    
-                                    .ribbon-inner:before {
-                                        left:0;
-                                    }
-                                    
-                                    .ribbon-inner:after {
-                                        right:0;
-                                    }
-                                    
-                                    @media(max-width:575px) {
-                                        .invoice .top-left,.invoice .top-right,.invoice .payment-details {
-                                            text-align:center;
-                                        }
-                                    
-                                        .invoice .from,.invoice .to,.invoice .payment-details {
-                                            float:none;
-                                            width:100%;
-                                            text-align:center;
-                                            margin-bottom:25px;
-                                        }
-                                    
-                                        .invoice p.lead,.invoice .from p.lead,.invoice .to p.lead,.invoice .payment-details p.lead {
-                                            font-size:22px;
-                                        }
-                                    
-                                        .invoice .btn {
-                                            margin-top:10px;
-                                        }
-                                    }
-                                    
-                                    @media print {
-                                        .invoice {
-                                            width:900px;
-                                            height:800px;
-                                        }
-                                    }
+                                * {
+                                margin: 0;
+                                padding: 0;
+                                font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+                                box-sizing: border-box;
+                                font-size: 14px;
+                            }
+                            
+                            img {
+                                max-width: 100%;
+                            }
+                            
+                            body {
+                                -webkit-font-smoothing: antialiased;
+                                -webkit-text-size-adjust: none;
+                                width: 100% !important;
+                                height: 100%;
+                                line-height: 1.6;
+                            }
+                            
+                            /* Let's make sure all tables have defaults */
+                            table td {
+                                vertical-align: top;
+                            }
+                            
+                            /* -------------------------------------
+                                BODY & CONTAINER
+                            ------------------------------------- */
+                            body {
+                                background-color: #f6f6f6;
+                            }
+                            
+                            .body-wrap {
+                                background-color: #f6f6f6;
+                                width: 100%;
+                            }
+                            
+                            .container {
+                                display: block !important;
+                                max-width: 600px !important;
+                                margin: 0 auto !important;
+                                /* makes it centered */
+                                clear: both !important;
+                            }
+                            
+                            .content {
+                                max-width: 600px;
+                                margin: 0 auto;
+                                display: block;
+                                padding: 20px;
+                            }
+                            
+                            /* -------------------------------------
+                                HEADER, FOOTER, MAIN
+                            ------------------------------------- */
+                            .main {
+                                background: #fff;
+                                border: 1px solid #e9e9e9;
+                                border-radius: 3px;
+                            }
+                            
+                            .content-wrap {
+                                padding: 20px;
+                            }
+                            
+                            .content-block {
+                                padding: 0 0 20px;
+                            }
+                            
+                            .header {
+                                width: 100%;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .footer {
+                                width: 100%;
+                                clear: both;
+                                color: #999;
+                                padding: 20px;
+                            }
+                            .footer a {
+                                color: #999;
+                            }
+                            .footer p, .footer a, .footer unsubscribe, .footer td {
+                                font-size: 12px;
+                            }
+                            
+                            /* -------------------------------------
+                                TYPOGRAPHY
+                            ------------------------------------- */
+                            h1, h2, h3 {
+                                font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+                                color: #000;
+                                margin: 40px 0 0;
+                                line-height: 1.2;
+                                font-weight: 400;
+                            }
+                            
+                            h1 {
+                                font-size: 32px;
+                                font-weight: 500;
+                            }
+                            
+                            h2 {
+                                font-size: 24px;
+                            }
+                            
+                            h3 {
+                                font-size: 18px;
+                            }
+                            
+                            h4 {
+                                font-size: 14px;
+                                font-weight: 600;
+                            }
+                            
+                            p, ul, ol {
+                                margin-bottom: 10px;
+                                font-weight: normal;
+                            }
+                            p li, ul li, ol li {
+                                margin-left: 5px;
+                                list-style-position: inside;
+                            }
+                            
+                            /* -------------------------------------
+                                LINKS & BUTTONS
+                            ------------------------------------- */
+                            a {
+                                color: #1ab394;
+                                text-decoration: underline;
+                            }
+                            
+                            .btn-primary {
+                                text-decoration: none;
+                                color: #FFF;
+                                background-color: #1ab394;
+                                border: solid #1ab394;
+                                border-width: 5px 10px;
+                                line-height: 2;
+                                font-weight: bold;
+                                text-align: center;
+                                cursor: pointer;
+                                display: inline-block;
+                                border-radius: 5px;
+                                text-transform: capitalize;
+                            }
+                            
+                            /* -------------------------------------
+                                OTHER STYLES THAT MIGHT BE USEFUL
+                            ------------------------------------- */
+                            .last {
+                                margin-bottom: 0;
+                            }
+                            
+                            .first {
+                                margin-top: 0;
+                            }
+                            
+                            .aligncenter {
+                                text-align: center;
+                            }
+                            
+                            .alignright {
+                                text-align: right;
+                            }
+                            
+                            .alignleft {
+                                text-align: left;
+                            }
+                            
+                            .clear {
+                                clear: both;
+                            }
+                            
+                            /* -------------------------------------
+                                ALERTS
+                                Change the class depending on warning email, good email or bad email
+                            ------------------------------------- */
+                            .alert {
+                                font-size: 16px;
+                                color: #fff;
+                                font-weight: 500;
+                                padding: 20px;
+                                text-align: center;
+                                border-radius: 3px 3px 0 0;
+                            }
+                            .alert a {
+                                color: #fff;
+                                text-decoration: none;
+                                font-weight: 500;
+                                font-size: 16px;
+                            }
+                            .alert.alert-warning {
+                                background: #f8ac59;
+                            }
+                            .alert.alert-bad {
+                                background: #ed5565;
+                            }
+                            .alert.alert-good {
+                                background: #1ab394;
+                            }
+                            
+                            /* -------------------------------------
+                                INVOICE
+                                Styles for the billing table
+                            ------------------------------------- */
+                            .invoice {
+                                margin: 40px auto;
+                                text-align: left;
+                                width: 80%;
+                            }
+                            .invoice td {
+                                padding: 5px 0;
+                            }
+                            .invoice .invoice-items {
+                                width: 100%;
+                            }
+                            .invoice .invoice-items td {
+                                border-top: #eee 1px solid;
+                            }
+                            .invoice .invoice-items .total td {
+                                border-top: 2px solid #333;
+                                border-bottom: 2px solid #333;
+                                font-weight: 700;
+                            }
+                            
+                            /* -------------------------------------
+                                RESPONSIVE AND MOBILE FRIENDLY STYLES
+                            ------------------------------------- */
+                            @media only screen and (max-width: 640px) {
+                                h1, h2, h3, h4 {
+                                    font-weight: 600 !important;
+                                    margin: 20px 0 5px !important;
+                                }
+                            
+                                h1 {
+                                    font-size: 22px !important;
+                                }
+                            
+                                h2 {
+                                    font-size: 18px !important;
+                                }
+                            
+                                h3 {
+                                    font-size: 16px !important;
+                                }
+                            
+                                .container {
+                                    width: 100% !important;
+                                }
+                            
+                                .content, .content-wrap {
+                                    padding: 10px !important;
+                                }
+                            
+                                .invoice {
+                                    width: 100% !important;
+                                }
+                            }
 
                                 </style>
                             </head>
@@ -222,109 +371,77 @@ class MailController {
                                 Trân trọng,
                                 <br />
                                 <b>DREAMCASTERS Team</b>
-                                <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-                                <div class="container bootstrap snippets bootdeys">
-                                <div class="row">
-                                  <div class="col-sm-12">
-                                          <div class="panel panel-default invoice" id="invoice">
-                                          <div class="panel-body">
-                                            <div class="invoice-ribbon"><div class="ribbon-inner">PAID</div></div>
-                                            <div class="row">
-                                
-                                                <div class="col-sm-6 top-left">
-                                                    <i class="fa fa-rocket"></i>
-                                                </div>
-                                
-                                                <div class="col-sm-6 top-right">
-                                                        <h3 class="marginright">INVOICE-1234578</h3>
-                                                        <span class="marginright">14 April 2014</span>
-                                                </div>
-                                
-                                            </div>
-                                            <hr>
-                                            <div class="row">
-                                
-                                                <div class="col-xs-4 from">
-                                                    <p class="lead marginbottom">From : Dynofy</p>
-                                                    <p>350 Rhode Island Street</p>
-                                                    <p>Suite 240, San Francisco</p>
-                                                    <p>California, 94103</p>
-                                                    <p>Phone: 415-767-3600</p>
-                                                    <p>Email: contact@dynofy.com</p>
-                                                </div>
-                                
-                                                <div class="col-xs-4 to">
-                                                    <p class="lead marginbottom">To : John Doe</p>
-                                                    <p>425 Market Street</p>
-                                                    <p>Suite 2200, San Francisco</p>
-                                                    <p>California, 94105</p>
-                                                    <p>Phone: 415-676-3600</p>
-                                                    <p>Email: john@doe.com</p>
-                                
-                                                </div>
-                                
-                                                <div class="col-xs-4 text-right payment-details">
-                                                    <p class="lead marginbottom payment-info">Payment details</p>
-                                                    <p>Date: 14 April 2014</p>
-                                                    <p>VAT: DK888-777 </p>
-                                                    <p>Total Amount: $1019</p>
-                                                    <p>Account Name: Flatter</p>
-                                                </div>
-                                
-                                            </div>
-                                
-                                            <div class="row table-row">
-                                                <table class="table table-striped">
-                                                  <thead>
-                                                    <tr>
-                                                      <th class="text-center" style="width:5%">#</th>
-                                                      <th style="width:50%">Item</th>
-                                                      <th class="text-right" style="width:15%">Quantity</th>
-                                                      <th class="text-right" style="width:15%">Unit Price</th>
-                                                      <th class="text-right" style="width:15%">Total Price</th>
-                                                    </tr>
-                                                  </thead>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td class="text-center">1</td>
-                                                      <td>Flatter Theme</td>
-                                                      <td class="text-right">10</td>
-                                                      <td class="text-right">$18</td>
-                                                      <td class="text-right">$180</td>
+                        <table class="body-wrap">
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td class="container" width="600">
+                                <div class="content">
+                                    <table class="main" width="100%" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <td class="content-wrap aligncenter">
+                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                    <tbody><tr>
+                                                        <td class="content-block">
+                                                            <h2><b>CẢM ƠN VÌ ĐÃ SỬ DỤNG DỊCH VỤ CỦA CHÚNG TÔI</b></h2>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                      <td class="text-center">2</td>
-                                                      <td>Flat Icons</td>
-                                                      <td class="text-right">6</td>
-                                                      <td class="text-right">$59</td>
-                                                      <td class="text-right">$254</td>
+                                                        <td class="content-block">
+                                                            <table class="invoice">
+                                                                <tbody><tr>
+                                                                    <td>${req.body.hoten}<br>Invoice #12345<br>June 01 2015</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <table class="invoice-items" cellpadding="0" cellspacing="0">
+                                                                            <tbody><tr>
+                                                                                <td>Service 1</td>
+                                                                                <td class="alignright">$ 20.00</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Service 2</td>
+                                                                                <td class="alignright">$ 10.00</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Service 3</td>
+                                                                                <td class="alignright">$ 6.00</td>
+                                                                            </tr>
+                                                                            <tr class="total">
+                                                                                <td class="alignright" width="80%">Total</td>
+                                                                                <td class="alignright">${req.body.tongtien}</td>
+                                                                            </tr>
+                                                                        </tbody></table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody></table>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                      <td class="text-center">3</td>
-                                                      <td>Wordpress version</td>
-                                                      <td class="text-right">4</td>
-                                                      <td class="text-right">$95</td>
-                                                      <td class="text-right">$285</td>
+                                                        <td class="content-block">
+                                                            <a href="/localhost:3000">View in browser</a>
+                                                        </td>
                                                     </tr>
-                                                     <tr class="last-row">
-                                                      <td class="text-center">4</td>
-                                                      <td>Server Deployment</td>
-                                                      <td class="text-right">1</td>
-                                                      <td class="text-right">$300</td>
-                                                      <td class="text-right">$300</td>
+                                                    <tr>
+                                                        <td class="content-block">
+                                                            Company Inc. 123 Van Ness, San Francisco 94102
+                                                        </td>
                                                     </tr>
-                                                   </tbody>
-                                                </table>
-                                
-                                            </div>
-                                
-                                           
-                                
-                                          </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                </div>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                    <div class="footer">
+                                        <table width="100%">
+                                            <tbody><tr>
+                                                <td class="aligncenter content-block">Questions? Email <a href="mailto:">support@company.inc</a></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </div></div>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody></table>
                         </body>
                         </html>
                     `
