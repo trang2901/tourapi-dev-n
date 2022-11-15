@@ -363,13 +363,16 @@ class MailController {
                             <td></td>
                             <td class="container" width="600">
                                 <div class="content">
+                                <b>DREAMCASTERS</b> kính chào quý khách!<br />
+                                Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
+                                <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br /><br/>
                                     <table class="main" width="100%" cellpadding="0" cellspacing="0">
                                         <tbody><tr>
                                             <td class="content-wrap aligncenter">
                                                 <table width="100%" cellpadding="0" cellspacing="0">
                                                     <tbody><tr>
                                                         <td class="content-block">
-                                                            <h2>Thanks for using our app</h2>
+                                                            <h2><b>CẢM ƠN VÌ ĐÃ SỬ DỤNG DỊCH VỤ CỦA CHÚNG TÔI</b></h2>
                                                         </td>
                                                     </tr>
                                                     <tr>

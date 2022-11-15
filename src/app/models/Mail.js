@@ -1,11 +1,10 @@
 const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 const Mail=new Schema({
-    name: String,
+    hoten: String,
     email: String,
-    message: String,
-    subject: String, 
-    company: String
+    tongtien: String,
+    sodienthoai: String, 
 },{
     timestamps:true
 })
