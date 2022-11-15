@@ -69,7 +69,7 @@ class MailController {
                     subject:'DREAMCASTERS ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
                     // html: `
                     // <b>DREAMCASTERS</b> kính chào quý khách!<br />
-                    // Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
+                    // Rất cảm ơn quý khđã cho chúng tôi cơ hội được phục vụ.<br /><br />
                     // <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
                     // <br />
                     // Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
@@ -364,8 +364,18 @@ class MailController {
                             <td class="container" width="600">
                                 <div class="content">
                                 <b>DREAMCASTERS</b> kính chào quý khách!<br />
-                                Rất cảm ơn quý khách hàng đã cho chúng tôi cơ hội được phục vụ.<br /><br />
+                                Rất cảm ơn ${req.body.hoten} đã cho chúng tôi cơ hội được phục vụ.<br /><br />
                                 <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br /><br/>
+
+                                Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
+                                <br />
+                                <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
+                                <br />
+                                Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0123456789
+                                <br/><br/>
+                                Trân trọng,
+                                <br />
+                                <b>DREAMCASTERS Team</b>
                                     <table class="main" width="100%" cellpadding="0" cellspacing="0">
                                         <tbody><tr>
                                             <td class="content-wrap aligncenter">
@@ -379,7 +389,7 @@ class MailController {
                                                         <td class="content-block">
                                                             <table class="invoice">
                                                                 <tbody><tr>
-                                                                    <td>Anna Smith<br>Invoice #12345<br>June 01 2015</td>
+                                                                    <td>${req.body.hoten}<br>Invoice #12345<br>June 01 2015</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
@@ -398,7 +408,7 @@ class MailController {
                                                                             </tr>
                                                                             <tr class="total">
                                                                                 <td class="alignright" width="80%">Total</td>
-                                                                                <td class="alignright">$ 36.00</td>
+                                                                                <td class="alignright">${req.body.tongtien}</td>
                                                                             </tr>
                                                                         </tbody></table>
                                                                     </td>
@@ -408,7 +418,7 @@ class MailController {
                                                     </tr>
                                                     <tr>
                                                         <td class="content-block">
-                                                            <a href="#">View in browser</a>
+                                                            <a href="/localhost:3000">View in browser</a>
                                                         </td>
                                                     </tr>
                                                     <tr>
