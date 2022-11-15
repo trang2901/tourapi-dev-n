@@ -358,12 +358,7 @@ class MailController {
                                 </style>
                             </head>
                         <body>
-                        <table class="body-wrap">
-                        <tbody><tr>
-                            <td></td>
-                            <td class="container" width="600">
-                                <div class="content">
-                                <b>DREAMCASTERS</b> kính chào quý khách!<br />
+                        <b>DREAMCASTERS</b> kính chào quý khách!<br />
                                 Rất cảm ơn ${req.body.hoten} đã cho chúng tôi cơ hội được phục vụ.<br /><br />
                                 <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br /><br/>
 
@@ -376,6 +371,12 @@ class MailController {
                                 Trân trọng,
                                 <br />
                                 <b>DREAMCASTERS Team</b>
+                        <table class="body-wrap">
+                        <tbody>
+                        <tr>
+                            <td></td>
+                            <td class="container" width="600">
+                                <div class="content">
                                     <table class="main" width="100%" cellpadding="0" cellspacing="0">
                                         <tbody><tr>
                                             <td class="content-wrap aligncenter">
