@@ -5,6 +5,7 @@ const Mail=new Schema({
     email: String,
     tongtien: String,
     sodienthoai: String, 
+    ngaydattour: String,
 },{
     timestamps:true
 })

@@ -381,16 +381,19 @@ class MailController {
                                         <tbody><tr>
                                             <td class="content-wrap aligncenter">
                                                 <table width="100%" cellpadding="0" cellspacing="0">
-                                                    <tbody><tr>
+                                                    <tbody>
+                                                    <tr>
                                                         <td class="content-block">
                                                             <h2><b>CẢM ƠN VÌ ĐÃ SỬ DỤNG DỊCH VỤ CỦA CHÚNG TÔI</b></h2>
                                                         </td>
                                                     </tr>
+
                                                     <tr>
                                                         <td class="content-block">
                                                             <table class="invoice">
                                                                 <tbody><tr>
-                                                                    <td>${req.body.hoten}<br>Invoice #12345<br>June 01 2015</td>
+                                                                    <td>${req.body.hoten}
+                                                                    <br/>June 01 2015</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
