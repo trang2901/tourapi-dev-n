@@ -393,7 +393,7 @@ class MailController {
                                                             <table class="invoice">
                                                                 <tbody><tr>
                                                                     <td>${req.body.hoten}
-                                                                    <br/>Ngày đặt tour: ${req.body.ngaydattour}</td>
+                                                                    <br/>Ngày đặt tour: ${req.body.ngaydattour.getDate() + "/"+ req.body.ngaydattour.getMonth() + "/" + req.body.ngaydattour.getYear()} + ${req.body.ngaydattour.getTime()}</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
