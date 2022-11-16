@@ -395,23 +395,16 @@ class MailController {
                                                                 <tr>
                                                                     <td>
                                                                         <table class="invoice-items" cellpadding="0" cellspacing="0">
-                                                                            <tbody><tr>
-                                                                                <td>Service 1</td>
-                                                                                <td class="alignright">$ 20.00</td>
-                                                                            </tr>
+                                                                            <tbody>
                                                                             <tr>
-                                                                                <td>Service 2</td>
-                                                                                <td class="alignright">$ 10.00</td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                <td>Service 3</td>
-                                                                                <td class="alignright">$ 6.00</td>
-                                                                            </tr>
-                                                                            <tr class="total">
-                                                                                <td class="alignright" width="80%">Total</td>
+                                                                                <td>Tổng hóa đơn của bạn là: </td>
                                                                                 <td class="alignright">${req.body.tongtien}</td>
                                                                             </tr>
-                                                                        </tbody></table>
+                                                                         
+                                                                          
+                                                                            
+                                                                        </tbody>
+                                                                        </table>
                                                                     </td>
                                                                 </tr>
                                                             </tbody></table>
