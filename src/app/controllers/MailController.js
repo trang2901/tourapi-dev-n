@@ -393,7 +393,7 @@ class MailController {
                                                             <table class="invoice">
                                                                 <tbody><tr>
                                                                     <td>${req.body.hoten}
-                                                                    <br/>June 01 2015</td>
+                                                                    <br/>Ngày đặt tour: ${req.body.ngaydattour}</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
