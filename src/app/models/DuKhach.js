@@ -4,6 +4,7 @@ const Schema=mongoose.Schema;
 const DuKhach=new Schema({
     ho_ten: String,
     sdt:String,
+    tuoi: String,
 },{
     timestamps:true
 })
