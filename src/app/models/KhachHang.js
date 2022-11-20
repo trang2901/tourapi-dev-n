@@ -7,7 +7,7 @@ const KhachHang=new Schema({
     sdt:String,
     email:String,
     dia_chi:String,
-    tuoi: String,
+    ngay_sinh: String, 
     id_tai_khoan:{ type: Schema.Types.ObjectId, ref: 'tai_khoan' },
 },{
     timestamps:true
