@@ -5,7 +5,6 @@ const DuKhach=new Schema({
     ho_ten: String,
     sdt:String,
     tuoi: String,
-    maThanhToan: String,
 
 },{
     timestamps:true
