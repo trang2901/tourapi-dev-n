@@ -8,6 +8,8 @@ const KhachHang=new Schema({
     email:String,
     dia_chi:String,
     tuoi: String, 
+    tendoanhnghiep: String,
+    masothuedoanhnghiep: String,
     id_tai_khoan:{ type: Schema.Types.ObjectId, ref: 'tai_khoan' },
 },{
     timestamps:true
