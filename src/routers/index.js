@@ -8,7 +8,8 @@ const duKhachRouter=require('./duKhach');
 const taiKhoanRouter=require('./taiKhoan');
 const thanhToanRouter=require('./ThanhToan');
 const kyThanhToanRouter=require('./KyThanhToan');
-const mailRouter = require('./mail')
+const mailRouter = require('./mail');
+const paymentRouter = require('./payment');
 function route(app){
     app.use('/tour',tourRouter);
     app.use('/lichtrinh',lichTrinhRouter);
@@ -21,6 +22,7 @@ function route(app){
     app.use('/thanhtoan',thanhToanRouter);
     app.use('/kyThanhtoan',kyThanhToanRouter);
     app.use('/mail', mailRouter);
+    app.use('/payment', paymentRouter);
 }
 
 module.exports=route;
