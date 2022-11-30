@@ -2,7 +2,9 @@ const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 const Payment=new Schema({
     amount: String, 
-    id: String
+    id: String,
+    des: String,
+
 },{
     timestamps:true
 })

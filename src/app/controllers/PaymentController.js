@@ -17,19 +17,18 @@ class PaymentController {
 
     //[POST] /mail
     create(req, res) {
-        let { amount, id } = req.body;
+        let { amount, id, des } = req.body;
         const payments = new Payment(req.body);
         payments.save().then(data => {
             try {
                 const payment = stripe.paymentIntents.create({
                     amount,
                     currency: "USD",
-                    description: "Heo nè",
+                    description: des,
                     payment_method: id,
                     confirm: true
                 })
                 console.log("Payment", payment)
-
                 res.json({
                     message: "Payment successful",
                     success: true

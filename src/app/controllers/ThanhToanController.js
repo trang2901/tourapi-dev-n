@@ -54,6 +54,18 @@ class ThanhToanController {
                 });
             })
     }
+    updatePatch(req, res) {
+        var updateObject = req.body;
+        var id = req.params.id;
+        ThanhToan.findByIdAndUpdate(id, { $set: updateObject })
+            .lean()
+            .then(dataUpdate => res.json(dataUpdate))
+            .catch(err => {
+                res.json({
+                    message: err
+                });
+            })
+    }
 
     // [DELETE] /ThanhToan/:id
     delete(req, res) {

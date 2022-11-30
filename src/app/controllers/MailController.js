@@ -64,9 +64,9 @@ class MailController {
             .then(data => {
                 //gửi mail
                 const mailOptions = {
-                    from : '"DREAMCASTERS " <dreamcasters29010502@gmail.com',
+                    from : '"Dế Mèn Tours " <dementours29010502@gmail.com',
                     to : req.body.email,
-                    subject:'DREAMCASTERS ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
+                    subject:'Dế Mèn Tours ĐÃ TẠO ĐƠN CỦA ANH/CHỊ',
                     // html: `
                     // <b>DREAMCASTERS</b> kính chào quý khách!<br />
                     // Rất cảm ơn quý khđã cho chúng tôi cơ hội được phục vụ.<br /><br />
@@ -358,9 +358,9 @@ class MailController {
                                 </style>
                             </head>
                         <body>
-                        <b>DREAMCASTERS</b> kính chào quý khách!<br />
+                        <b>Dế Mèn Tours</b> kính chào quý khách!<br />
                                 Rất cảm ơn ${req.body.hoten} đã cho chúng tôi cơ hội được phục vụ.<br /><br />
-                                <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br /><br/>
+                                <b>Dế Mèn </b> đã tiếp nhận đơn đặt tour của bạn. <br /><br/>
 
                                 Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
                                 <br />
@@ -370,7 +370,7 @@ class MailController {
                                 <br/><br/>
                                 Trân trọng,
                                 <br />
-                                <b>DREAMCASTERS Team</b>
+                                <b>Dế Mèn Team</b>
                         <table class="body-wrap">
                         <tbody>
                         <tr>
@@ -413,14 +413,10 @@ class MailController {
                                                             </tbody></table>
                                                         </td>
                                                     </tr>
+
                                                     <tr>
                                                         <td class="content-block">
-                                                            <a href="/localhost:3000">View in browser</a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td class="content-block">
-                                                            Company Inc. 123 Van Ness, San Francisco 94102
+                                                            Hưng Lợi, Ninh Kiều, Cần Thơ
                                                         </td>
                                                     </tr>
                                                 </tbody></table>

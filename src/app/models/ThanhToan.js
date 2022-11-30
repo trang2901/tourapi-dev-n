@@ -11,6 +11,8 @@ const ThanhToan=new Schema({
     nguoi_duyet:{ type: Schema.Types.ObjectId, ref: 'admin' },
     trang_thai_duyet:String,
     soluongcho: String,
+    du_khach:[{ type: Schema.Types.ObjectId, ref: 'du_khach' }],
+    trang_thai_thanh_toan: String
 },{
     timestamps:true
 });

@@ -40,6 +40,7 @@ class TourController {
                 message: err
             });
     }
+
     // [GET] /tour/allTags
     showAllTags(req, res) {
         Tour.find({}, { tags: 1, _id: 0 })
@@ -57,6 +58,7 @@ class TourController {
                 message: err
             });
     }
+    
     // [GET] /tour/page
     showPage(req, res) {
         let page = req.params.page;
