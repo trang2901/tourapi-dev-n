@@ -15,6 +15,7 @@ class TourController {
                 populate: { path: 'id_dia_diem' }
             })
             .populate('nguoi_hd')
+            .populate('loai_tour')
             .populate('du_khach')
             .lean()
             .then(tours => {
@@ -70,6 +71,7 @@ class TourController {
                     populate: { path: 'id_dia_diem' }
                 })
                 .populate('nguoi_hd')
+                .populate('loai_tour')
                 .populate('du_khach')
                 .lean()
                 .skip((limitPage * page) - limitPage)
@@ -91,6 +93,7 @@ class TourController {
                 populate: { path: 'id_dia_diem' }
             })
             .populate('nguoi_hd')
+            .populate('loai_tour')
             .populate('du_khach')
             .lean()
             .then(tour => {

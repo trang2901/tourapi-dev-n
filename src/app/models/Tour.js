@@ -21,7 +21,8 @@ const Tour=new Schema({
     diemnoibat: String,
     thoigian: String,
     chitietlichtrinh: String, 
-  
+    ngay_dang_ky_cuoi_cung: String,
+    loai_tour: {type: Schema.Types.ObjectId, ref: 'loai_tour' }
 },{
     timestamps:true
 })

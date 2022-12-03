@@ -71,7 +71,7 @@ class MailController {
                     // <b>DREAMCASTERS</b> kính chào quý khách!<br />
                     // Rất cảm ơn quý khđã cho chúng tôi cơ hội được phục vụ.<br /><br />
                     // <b>DREAMCASTERS</b> đã tiếp nhận đơn đặt tour của bạn. <br />
-                    // <br />
+                    // <b
                     // Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
                     // <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
                     // <br />
@@ -360,12 +360,12 @@ class MailController {
                         <body>
                         <b>Dế Mèn Tours</b> kính chào quý khách!<br />
                                 Rất cảm ơn ${req.body.hoten} đã cho chúng tôi cơ hội được phục vụ.<br /><br />
-                                <b>Dế Mèn </b> đã tiếp nhận đơn đặt tour của bạn. <br /><br/>
+                                <b>Dế Mèn </b> đã tiếp nhận đơn đặt tour của bạn.
 
                                 Sẽ mất 1-2 tiếng làm việc để chúng tôi kiểm tra và đối soát đơn của bạn và xác nhận đơn của bạn trong thời gian sớm nhất. <br />
-                                <br />
+            
                                 <b>Xin quý khách lưu ý: </b> Đây là Email xác nhận Đơn đặt tour của quý khách! Vui lòng không trả lời mail này. <br />
-                                <br />
+                                
                                 Nếu bạn có bất kỳ thắc mắc nào, xin vui lòng liên hệ với chúng tôi qua đường dây nóng: 0123456789
                                 <br/><br/>
                                 Trân trọng,
