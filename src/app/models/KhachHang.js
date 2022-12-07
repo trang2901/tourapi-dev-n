@@ -11,6 +11,7 @@ const KhachHang=new Schema({
     tendoanhnghiep: String,
     masothuedoanhnghiep: String,
     id_tai_khoan:{ type: Schema.Types.ObjectId, ref: 'tai_khoan' },
+    so_cmnd: String
 },{
     timestamps:true
 })
